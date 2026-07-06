@@ -1,0 +1,702 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Logbuch — Leadership across Cultures</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink:       { DEFAULT: '#0B2A3D', deep: '#071C29' },
+          azure:     { DEFAULT: '#1B6FA8', light: '#3B9AD9' },
+          turquoise: { DEFAULT: '#12968C', light: '#4FC3B8' },
+          foam:      '#E7F5F5',
+          sand:      '#FBF7EF',
+          slate:     '#5A7080'
+        },
+        fontFamily: {
+          serif: ['Fraunces', 'serif'],
+          sans:  ['Inter', 'sans-serif']
+        }
+      }
+    }
+  }
+</script>
+<style>
+  body {
+    font-family: 'Inter', sans-serif;
+    background: linear-gradient(180deg, #FBF7EF 0%, #F3F8F6 35%, #EAF5F5 100%);
+    color: #0B2A3D;
+  }
+  h1, h2, h3, .font-display { font-family: 'Fraunces', serif; }
+
+  /* ============ Ambiente: treibende Blasen hinter dem gesamten Inhalt ============ */
+  .ambient-bubbles { position: fixed; inset: 0; overflow: hidden; pointer-events: none; z-index: 0; }
+  .amb-bubble {
+    position: absolute; bottom: -60px; border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, rgba(255,255,255,0.95), rgba(79,195,184,0.12));
+    opacity: 0; animation: ambRise linear infinite;
+  }
+  @keyframes ambRise {
+    0%   { transform: translateY(0) scale(1); opacity: 0; }
+    8%   { opacity: 0.55; }
+    92%  { opacity: 0.25; }
+    100% { transform: translateY(-115vh) scale(1.15); opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .amb-bubble { animation: none; display: none; }
+  }
+
+  /* ============ Ozean-Szene (Hero) ============ */
+  .ocean-scene { position: absolute; inset: 0; width: 100%; height: 100%; }
+  .fish   { animation: fishSwim 9s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  .fish-2 { animation-duration: 10.5s; animation-delay: .6s; }
+  .fish-3 { animation-duration: 8s;    animation-delay: 1.4s; }
+  .fish-4 { animation-duration: 11s;   animation-delay: .3s; }
+  @keyframes fishSwim {
+    0%, 100% { transform: translate(0,0); }
+    50%      { transform: translate(18px, -6px); }
+  }
+  .jellyfish { animation: jellyPulse 4.2s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes jellyPulse {
+    0%, 100% { transform: scaleY(1) translateY(0); }
+    50%      { transform: scaleY(1.08) translateY(-6px); }
+  }
+  .seaweed { transform-box: fill-box; transform-origin: bottom center; animation: seaSway 6s ease-in-out infinite; }
+  .seaweed-2 { animation-duration: 7s; animation-delay: .8s; }
+  .seaweed-3 { animation-duration: 5.5s; animation-delay: 1.6s; }
+  @keyframes seaSway {
+    0%, 100% { transform: rotate(-4deg); }
+    50%      { transform: rotate(4deg); }
+  }
+  .sailboat { animation: sailDrift 22s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes sailDrift {
+    0%, 100% { transform: translate(0,0); }
+    50%      { transform: translate(-16px,-4px); }
+  }
+  .scene-bubble { animation: bubbleUp 5s ease-in infinite; transform-box: fill-box; transform-origin: center; }
+  @keyframes bubbleUp {
+    0%   { transform: translateY(0); opacity: 0; }
+    15%  { opacity: .8; }
+    100% { transform: translateY(-70px); opacity: 0; }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .fish, .jellyfish, .seaweed, .sailboat, .scene-bubble { animation: none; }
+  }
+
+  /* ============ Flip Card ============ */
+  .flip-card { perspective: 1300px; }
+  .flip-card-inner {
+    position: relative; width: 100%; height: 100%;
+    transition: transform 0.65s cubic-bezier(.4,.2,.2,1);
+    transform-style: preserve-3d;
+  }
+  .flip-card:hover .flip-card-inner { transform: rotateY(180deg); }
+  .flip-card-front, .flip-card-back {
+    position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden;
+    border-radius: 16px; overflow: hidden;
+  }
+  .flip-card-back { transform: rotateY(180deg); }
+
+  .badge-glow { animation: glowPulse 3s ease-in-out infinite; }
+  @keyframes glowPulse {
+    0%, 100% { box-shadow: 0 0 0 0 rgba(27,111,168,0.35); }
+    50%      { box-shadow: 0 0 0 6px rgba(27,111,168,0); }
+  }
+
+  .view { display: none; }
+  .view.active { display: block; animation: fadeIn .5s ease; }
+  @keyframes fadeIn { from { opacity: 0; transform: translateY(10px);} to { opacity: 1; transform: translateY(0);} }
+
+  ::selection { background: #12968C; color: #fff; }
+  ::-webkit-scrollbar { width: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: #BFE0DC; border-radius: 4px; }
+
+  .tile-media-empty {
+    background-image: repeating-linear-gradient(135deg, rgba(11,42,61,0.05) 0px, rgba(11,42,61,0.05) 1px, transparent 1px, transparent 8px);
+  }
+
+  .wave-divider path { fill: #E7F5F5; }
+  .wave-divider-accent path { fill: #12968C; opacity: .18; }
+</style>
+</head>
+<body class="text-ink">
+
+<!-- Treibende Blasen, ständig sichtbar hinter dem gesamten Inhalt -->
+<div class="ambient-bubbles" aria-hidden="true">
+  <span class="amb-bubble" style="left:6%;  width:10px;height:10px; animation-duration:16s; animation-delay:0s;"></span>
+  <span class="amb-bubble" style="left:16%; width:6px; height:6px;  animation-duration:12s; animation-delay:2s;"></span>
+  <span class="amb-bubble" style="left:28%; width:14px;height:14px; animation-duration:20s; animation-delay:4s;"></span>
+  <span class="amb-bubble" style="left:41%; width:8px; height:8px;  animation-duration:14s; animation-delay:1s;"></span>
+  <span class="amb-bubble" style="left:58%; width:11px;height:11px; animation-duration:18s; animation-delay:6s;"></span>
+  <span class="amb-bubble" style="left:69%; width:7px; height:7px;  animation-duration:13s; animation-delay:3s;"></span>
+  <span class="amb-bubble" style="left:81%; width:13px;height:13px; animation-duration:19s; animation-delay:5s;"></span>
+  <span class="amb-bubble" style="left:92%; width:9px; height:9px;  animation-duration:15s; animation-delay:7s;"></span>
+</div>
+
+<!-- ============================================================ -->
+<!-- NAVIGATION -->
+<!-- ============================================================ -->
+<nav class="fixed top-0 left-0 right-0 z-50 bg-sand/90 backdrop-blur-sm border-b border-ink/10">
+  <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+    <button onclick="Router.go('dashboard')" class="flex items-center gap-2 group">
+      <i class="ti ti-anchor text-xl text-azure group-hover:rotate-12 transition-transform"></i>
+      <span class="font-display text-lg tracking-tight">Logbuch <span class="text-slate font-sans text-sm font-normal">— Leadership across Cultures</span></span>
+    </button>
+    <div id="nav-week-indicator" class="hidden md:flex items-center gap-2 text-sm text-slate"></div>
+  </div>
+</nav>
+
+<div class="h-[72px]"></div>
+
+<!-- ============================================================ -->
+<!-- VIEW: DASHBOARD -->
+<!-- ============================================================ -->
+<main id="view-dashboard" class="view active relative z-10">
+
+  <!-- HERO -->
+  <header class="relative overflow-hidden border-b border-ink/10">
+
+    <svg class="ocean-scene" viewBox="0 0 1200 480" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+      <defs>
+        <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+          <stop offset="0%"  stop-color="#FBF7EF"/>
+          <stop offset="100%" stop-color="#DDEFF0"/>
+        </linearGradient>
+      </defs>
+
+      <rect x="0" y="0" width="1200" height="480" fill="url(#skyGrad)"/>
+      <circle cx="220" cy="90" r="150" fill="#E7F5F5" opacity="0.55"/>
+
+      <!-- Segelboot am Horizont -->
+      <g class="sailboat" transform="translate(880,150)">
+        <path d="M-42,58 L42,58 C36,68 -36,68 -42,58 Z" fill="#0B2A3D"/>
+        <line x1="0" y1="58" x2="0" y2="-14" stroke="#0B2A3D" stroke-width="2.5"/>
+        <path d="M3,-10 C24,10 24,42 3,56 Z" fill="#FBF7EF" stroke="#0B2A3D" stroke-width="1"/>
+        <path d="M-3,4 C-18,18 -18,42 -3,56 Z" fill="#E7F5F5" stroke="#0B2A3D" stroke-width="1"/>
+      </g>
+
+      <!-- Wellenbänder: helles Türkis bis tiefes Azurblau -->
+      <path d="M0,215 C150,185 300,245 450,215 C600,185 750,245 900,215 C1050,185 1150,215 1200,208 L1200,480 L0,480 Z" fill="#BFE3E2"/>
+      <path d="M0,260 C150,235 300,290 450,260 C600,235 750,290 900,260 C1050,235 1150,258 1200,253 L1200,480 L0,480 Z" fill="#6FC7BE"/>
+
+      <!-- Fischschwarm -->
+      <g class="fish fish-1" transform="translate(190,300) rotate(-6)">
+        <path d="M0,0 C6,-9 20,-9 26,0 C20,9 6,9 0,0 Z" fill="#EAF8F7"/>
+        <path d="M0,0 L-11,-7 L-11,7 Z" fill="#EAF8F7"/>
+        <circle cx="19" cy="-1.5" r="1.4" fill="#0B2A3D"/>
+      </g>
+      <g class="fish fish-2" transform="translate(260,330) rotate(4) scale(0.8)">
+        <path d="M0,0 C6,-9 20,-9 26,0 C20,9 6,9 0,0 Z" fill="#DFF3EF"/>
+        <path d="M0,0 L-11,-7 L-11,7 Z" fill="#DFF3EF"/>
+        <circle cx="19" cy="-1.5" r="1.4" fill="#0B2A3D"/>
+      </g>
+      <g class="fish fish-3" transform="translate(970,290) rotate(-10) scale(1.1)">
+        <path d="M0,0 C6,-9 20,-9 26,0 C20,9 6,9 0,0 Z" fill="#EAF8F7"/>
+        <path d="M0,0 L-11,-7 L-11,7 Z" fill="#EAF8F7"/>
+        <circle cx="19" cy="-1.5" r="1.4" fill="#0B2A3D"/>
+      </g>
+      <g class="fish fish-4" transform="translate(1030,320) rotate(6) scale(0.75)">
+        <path d="M0,0 C6,-9 20,-9 26,0 C20,9 6,9 0,0 Z" fill="#DFF3EF"/>
+        <path d="M0,0 L-11,-7 L-11,7 Z" fill="#DFF3EF"/>
+        <circle cx="19" cy="-1.5" r="1.4" fill="#0B2A3D"/>
+      </g>
+
+      <!-- Qualle -->
+      <g class="jellyfish" transform="translate(560,275)">
+        <path d="M-20,0 C-20,-18 20,-18 20,0 C11,5 -11,5 -20,0 Z" fill="#FBF7EF" opacity="0.65"/>
+        <path d="M-11,3 C-13,16 -8,24 -11,34" stroke="#FBF7EF" stroke-width="1.6" fill="none" opacity="0.55" stroke-linecap="round"/>
+        <path d="M0,4 C-1,18 2,26 0,36" stroke="#FBF7EF" stroke-width="1.6" fill="none" opacity="0.55" stroke-linecap="round"/>
+        <path d="M11,3 C13,16 8,24 11,34" stroke="#FBF7EF" stroke-width="1.6" fill="none" opacity="0.55" stroke-linecap="round"/>
+      </g>
+
+      <!-- Tiefe Wellenbänder -->
+      <path d="M0,330 C150,305 300,355 450,330 C600,305 750,355 900,330 C1050,305 1150,325 1200,320 L1200,480 L0,480 Z" fill="#1B6FA8"/>
+      <path d="M0,400 C150,382 300,418 450,400 C600,382 750,418 900,400 C1050,382 1150,398 1200,394 L1200,480 L0,480 Z" fill="#0B2A3D"/>
+
+      <!-- Seegras am Grund -->
+      <g class="seaweed seaweed-1" transform="translate(70,480)">
+        <path d="M0,0 C-12,-35 8,-55 -2,-95" stroke="#12968C" stroke-width="6" fill="none" stroke-linecap="round" opacity="0.65"/>
+      </g>
+      <g class="seaweed seaweed-2" transform="translate(95,480)">
+        <path d="M0,0 C10,-30 -8,-50 4,-85" stroke="#4FC3B8" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.55"/>
+      </g>
+      <g class="seaweed seaweed-3" transform="translate(1140,480)">
+        <path d="M0,0 C-10,-28 6,-48 -4,-80" stroke="#12968C" stroke-width="5" fill="none" stroke-linecap="round" opacity="0.5"/>
+      </g>
+
+      <!-- Aufsteigende Luftblasen -->
+      <circle class="scene-bubble" cx="330" cy="420" r="4" fill="#FBF7EF" opacity="0.7"/>
+      <circle class="scene-bubble" cx="345" cy="440" r="2.5" fill="#FBF7EF" opacity="0.6" style="animation-delay:1.2s"/>
+      <circle class="scene-bubble" cx="1000" cy="430" r="3.5" fill="#FBF7EF" opacity="0.6" style="animation-delay:2.1s"/>
+      <circle class="scene-bubble" cx="640" cy="410" r="3" fill="#FBF7EF" opacity="0.65" style="animation-delay:.6s"/>
+    </svg>
+
+    <div class="relative z-10 max-w-6xl mx-auto px-6 pt-16 pb-16">
+      <div class="flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-azure font-semibold mb-5">
+        <i class="ti ti-compass text-base"></i>
+        <span>Semesterreise 2026 · Hamburg</span>
+      </div>
+
+      <h1 class="font-display text-4xl md:text-5xl leading-[1.1] mb-6 max-w-2xl drop-shadow-sm">
+        Kurs gesetzt: Führung über kulturelle Gewässer hinweg
+      </h1>
+
+      <p class="text-ink/70 text-base md:text-lg max-w-2xl leading-relaxed mb-10">
+        Dieses digitale Logbuch dokumentiert meine 13-wöchige Reise durch das Modul
+        <span class="text-ink font-medium">„Leadership across Cultures“</span>.
+        Jede Kachel entspricht einer Woche an Bord — von den Zielen bis zur Zieleinfahrt.
+        Liebe Frau Professorin, alle Etappen sind einsehbar; die unten markierten Wochen
+        sind jene, die ich zur Benotung eingereicht habe.
+      </p>
+
+      <!-- LEGENDE -->
+      <div class="inline-flex flex-wrap items-center gap-x-8 gap-y-3 bg-white/85 backdrop-blur-sm border border-ink/10 rounded-2xl px-6 py-4 shadow-sm">
+        <div class="flex items-center gap-2.5">
+          <span class="badge-glow rounded-full" id="badge-svg-slot-legend"></span>
+          <span class="text-sm text-ink"><span class="font-medium">Benotungsrelevant</span> — zur Bewertung eingereicht</span>
+        </div>
+        <div class="w-px h-5 bg-ink/10 hidden sm:block"></div>
+        <div class="flex items-center gap-2.5">
+          <span class="relative flex h-7 w-7 items-center justify-center rounded-full border border-ink/20 text-ink/35">
+            <i class="ti ti-anchor text-sm"></i>
+          </span>
+          <span class="text-sm text-slate">Dokumentiert, nicht benotet</span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- WELLEN-TRENNER -->
+  <div class="relative -mt-1">
+    <svg class="wave-divider w-full" viewBox="0 0 1200 40" preserveAspectRatio="none" style="height:40px;" aria-hidden="true">
+      <path d="M0,10 C150,30 300,0 450,15 C600,30 750,0 900,15 C1050,30 1150,10 1200,15 L1200,40 L0,40 Z"/>
+    </svg>
+  </div>
+
+  <!-- GRID -->
+  <section class="max-w-6xl mx-auto px-6 pb-14 pt-2">
+    <div class="flex items-center gap-3 mb-8">
+      <div class="h-px flex-1 bg-ink/10"></div>
+      <span class="text-xs uppercase tracking-[0.2em] text-slate font-medium px-2">Die Etappen</span>
+      <div class="h-px flex-1 bg-ink/10"></div>
+    </div>
+
+    <div id="week-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5"></div>
+  </section>
+
+  <footer class="relative pt-2 pb-8">
+    <svg class="w-full mb-5" viewBox="0 0 1200 30" preserveAspectRatio="none" style="height:24px;" aria-hidden="true">
+      <path d="M0,15 C150,0 300,28 450,14 C600,0 750,28 900,14 C1050,0 1150,15 1200,12 L1200,30 L0,30 Z" fill="#1B6FA8" opacity="0.85"/>
+    </svg>
+    <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate">
+      <span>Digitales Logbuch · Leadership across Cultures · Sommersemester 2026</span>
+      <span class="flex items-center gap-1.5"><i class="ti ti-map-2 text-sm"></i> Hamburg → weite See → Hamburg</span>
+    </div>
+  </footer>
+</main>
+
+<!-- ============================================================ -->
+<!-- VIEW: WOCHEN-DETAIL -->
+<!-- ============================================================ -->
+<main id="view-week" class="view relative z-10">
+  <div id="week-detail-content"></div>
+</main>
+
+<script>
+/* ================================================================
+   PERSONEN-BADGE — Marker für benotungsrelevante Wochen
+================================================================ */
+const AVATAR_DATA_URI = "data:image/jpeg;base64,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";
+function personBadgeSVG(px) {
+  return `
+  <span style="display:inline-block;width:${px}px;height:${px}px;border-radius:9999px;overflow:hidden;border:2px solid #E7F5F5;flex-shrink:0;">
+    <img src="${AVATAR_DATA_URI}" alt="Benotungsrelevant" style="width:100%;height:100%;object-fit:cover;object-position:top center;display:block;">
+  </span>`;
+}
+document.getElementById('badge-svg-slot-legend').innerHTML = personBadgeSVG(30);
+
+/* ================================================================
+   DATENSTRUKTUR — Hier alle 13 Wochen anpassen
+   Jede Woche: id, title, tag (Kurzthema), graded (bool),
+   keyLearnings (Array für Rückseite, knapp),
+   detail: { reflection (HTML/Text), media: { images, video, audio }, notionUrl }
+================================================================ */
+const weeksData = [
+  {
+    id: 0,
+    title: "Ziele setzen",
+    tag: "Kurs abstecken vor Auslaufen",
+    graded: true,
+    icon: "ti-flag-3",
+    keyLearnings: [
+      "Persönliche Lernziele definiert",
+      "Erwartungen an interkulturelle Führung geklärt",
+      "Kompass für das Semester justiert"
+    ],
+    detail: {
+      reflection: `
+        <p>Bevor eine Reise beginnt, muss der Kurs feststehen. In dieser ersten Etappe habe ich meine
+        persönlichen Lernziele für das Modul „Leadership across Cultures" formuliert und sie mit meinen
+        eigenen Erfahrungen aus deutsch-mexikanischen Familienkontexten verknüpft.</p>
+        <p>Zentral war die Frage: Was bedeutet „Führung" eigentlich, wenn kulturelle Selbstverständlichkeiten
+        nicht mehr gelten? Ich habe drei Leitfragen für das Semester festgelegt, die mich durch alle
+        folgenden Wochen begleiten sollen — sie fungieren als mein Kompass.</p>`,
+      media: {
+        images: [
+          { src: "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?w=800&q=80", caption: "Kursplanung — der Ausgangshafen" }
+        ],
+        video: null,
+        audio: null
+      },
+      notionUrl: "https://notion.so/beispiel-woche-0"
+    }
+  },
+  {
+    id: 1,
+    title: "Kulturelle Dimensionen",
+    tag: "Hofstede & Trompenaars im Praxistest",
+    graded: true,
+    icon: "ti-map-2",
+    keyLearnings: [
+      "Hofstedes Dimensionen kritisch hinterfragt",
+      "Eigene kulturelle Prägung reflektiert",
+      "Grenzen von Kulturmodellen erkannt"
+    ],
+    detail: {
+      reflection: `
+        <p>In Woche 1 haben wir die klassischen Kulturdimensionsmodelle von Hofstede und Trompenaars
+        untersucht. Besonders spannend war der Abgleich mit meiner eigenen Biografie: Als jemand mit
+        deutscher und mexikanischer Herkunft erlebe ich viele der postulierten Gegensätze — etwa
+        Individualismus versus Kollektivismus — nicht als klare Trennlinie, sondern als ständiges Pendeln.</p>
+        <p><strong>Kernerkenntnis:</strong> Kulturmodelle sind nützliche Landkarten, aber keine exakten
+        Seekarten. Sie zeigen grobe Strömungen, nicht jede einzelne Welle. Für Führungskräfte bedeutet das:
+        Modelle als Ausgangspunkt nutzen, aber nie als Ersatz für echtes Zuhören.</p>
+        <p>Die Gruppendiskussion mit Kommiliton:innen aus vier verschiedenen Ländern hat diese These
+        eindrücklich bestätigt — die Selbsteinschätzungen wichen oft stark von den Modellvorhersagen ab.</p>`,
+      media: {
+        images: [
+          { src: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&q=80", caption: "Gruppenarbeit: Kulturdimensionen im Vergleich" },
+          { src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80", caption: "Whiteboard-Mitschrift aus dem Seminar" }
+        ],
+        video: { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", caption: "Kurzvortrag: Hofstede in der Praxis (Seminaraufzeichnung)" },
+        audio: { src: "", caption: "Podcast-Reflexion (folgt)" }
+      },
+      notionUrl: "https://notion.so/beispiel-woche-1"
+    }
+  },
+  {
+    id: 2,
+    title: "Kommunikationsstile",
+    tag: "High-Context vs. Low-Context",
+    graded: false,
+    icon: "ti-messages",
+    keyLearnings: [
+      "Direkte vs. indirekte Kommunikation erlebt",
+      "Missverständnisse im Rollenspiel analysiert"
+    ],
+    detail: {
+      reflection: `
+        <p>Diese Woche stand im Zeichen von High-Context- und Low-Context-Kommunikation. In einem
+        Rollenspiel mussten wir eine Verhandlungssituation einmal „deutsch-direkt" und einmal
+        „hochkontextuell-indirekt" durchspielen.</p>
+        <p>Die größte Erkenntnis für mich: Indirektheit ist keine Schwäche, sondern eine eigene Form von
+        Präzision — sie verlagert die Bedeutung vom expliziten Wort in den Kontext, den Tonfall und die
+        Beziehung. Für mein eigenes Führungsverständnis nehme ich mit, dass ich lernen muss, „zwischen
+        den Zeilen" aktiver zuzuhören.</p>
+        <p>Diese Woche ist dokumentiert, aber nicht Teil meiner Benotungsauswahl — sie war dennoch ein
+        wichtiger Baustein für das Verständnis der folgenden Etappen.</p>`,
+      media: { images: [], video: null, audio: null },
+      notionUrl: "https://notion.so/beispiel-woche-2"
+    }
+  }
+];
+
+// Platzhalter für Wochen 3–12, damit das Grid vollständig 13 Kacheln zeigt.
+const placeholderTopics = [
+  "Verhandlungsführung interkulturell", "Teams über Zeitzonen hinweg", "Konfliktstile im Vergleich",
+  "Macht und Hierarchie", "Vertrauen aufbauen auf Distanz", "Ambiguitätstoleranz",
+  "Feedbackkulturen weltweit", "Ethik & globale Verantwortung", "Krisen navigieren",
+  "Eigene Führungsphilosophie"
+];
+for (let i = 3; i <= 12; i++) {
+  weeksData.push({
+    id: i,
+    title: placeholderTopics[i - 3],
+    tag: "Platzhalter — bitte Inhalte ergänzen",
+    graded: (i === 6 || i === 9 || i === 12),
+    icon: "ti-sailboat",
+    keyLearnings: ["Platzhalter Key Learning 1", "Platzhalter Key Learning 2"],
+    detail: {
+      reflection: `<p>Inhalt für Woche ${i} folgt. Diese Struktur ist identisch zu den ausgearbeiteten
+      Beispielwochen und kann direkt im <code>weeksData</code>-Objekt ergänzt werden.</p>`,
+      media: { images: [], video: null, audio: null },
+      notionUrl: "https://notion.so/beispiel-woche-" + i
+    }
+  });
+}
+
+/* ================================================================
+   RENDERING: DASHBOARD GRID
+================================================================ */
+function renderGrid() {
+  const grid = document.getElementById('week-grid');
+  grid.innerHTML = weeksData.map(week => `
+    <div class="flip-card h-56 cursor-pointer" onclick="Router.go('week', ${week.id})">
+      <div class="flip-card-inner">
+
+        <!-- VORDERSEITE -->
+        <div class="flip-card-front bg-white border ${week.graded ? 'border-azure/30' : 'border-ink/10'} p-5 flex flex-col justify-between shadow-md">
+          <div class="flex items-start justify-between">
+            <span class="text-xs uppercase tracking-widest text-azure font-semibold">
+              ${week.id === 0 ? 'Vorbereitung' : 'Woche ' + week.id}
+            </span>
+            ${week.graded
+              ? `<span class="badge-glow rounded-full">${personBadgeSVG(30)}</span>`
+              : `<span class="flex items-center justify-center h-7 w-7 rounded-full border border-ink/15 text-ink/25" title="Nicht benotet">
+                   <i class="ti ti-anchor text-sm"></i>
+                 </span>`
+            }
+          </div>
+          <div>
+            <i class="ti ${week.icon} text-2xl text-turquoise/50 mb-2 block"></i>
+            <h3 class="font-display text-xl leading-snug text-ink">${week.title}</h3>
+            <p class="text-sm text-slate mt-1">${week.tag}</p>
+          </div>
+        </div>
+
+        <!-- RÜCKSEITE -->
+        <div class="flip-card-back bg-ink text-white p-5 flex flex-col justify-between shadow-md">
+          <div class="flex items-center justify-between">
+            <span class="text-xs uppercase tracking-widest text-turquoise-light font-semibold">Key Learnings</span>
+            <i class="ti ti-anchor text-turquoise-light text-sm"></i>
+          </div>
+          <ul class="space-y-2 text-sm leading-snug">
+            ${week.keyLearnings.map(kl => `
+              <li class="flex items-start gap-2">
+                <span class="mt-1.5 flex-shrink-0 w-2.5 h-1.5 rounded-full bg-turquoise-light"></span>
+                <span class="text-white/90">${kl}</span>
+              </li>
+            `).join('')}
+          </ul>
+          <span class="text-xs text-white/50 flex items-center gap-1">
+            Details ansehen <i class="ti ti-arrow-right text-xs"></i>
+          </span>
+        </div>
+
+      </div>
+    </div>
+  `).join('');
+}
+
+/* ================================================================
+   RENDERING: WOCHEN-DETAILSEITE
+================================================================ */
+function renderWeekDetail(id) {
+  const week = weeksData.find(w => w.id === id);
+  if (!week) return;
+  const d = week.detail;
+
+  const hasImages = d.media.images && d.media.images.length > 0;
+  const hasVideo  = d.media.video && d.media.video.url;
+  const hasAudio  = d.media.audio && d.media.audio.src;
+  const hasAnyMedia = hasImages || hasVideo || hasAudio;
+
+  const container = document.getElementById('week-detail-content');
+  container.innerHTML = `
+
+    <!-- HERO -->
+    <header class="relative overflow-hidden border-b border-ink/10">
+      <svg class="ocean-scene" viewBox="0 0 1200 280" preserveAspectRatio="xMidYMax slice" aria-hidden="true">
+        <defs>
+          <linearGradient id="skyGradSm${week.id}" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#FBF7EF"/>
+            <stop offset="100%" stop-color="#DDEFF0"/>
+          </linearGradient>
+        </defs>
+        <rect x="0" y="0" width="1200" height="280" fill="url(#skyGradSm${week.id})"/>
+
+        <g class="sailboat" transform="translate(1010,90)">
+          <path d="M-30,42 L30,42 C26,49 -26,49 -30,42 Z" fill="#0B2A3D"/>
+          <line x1="0" y1="42" x2="0" y2="-8" stroke="#0B2A3D" stroke-width="2"/>
+          <path d="M2,-6 C17,7 17,30 2,40 Z" fill="#FBF7EF" stroke="#0B2A3D" stroke-width=".8"/>
+        </g>
+
+        <path d="M0,150 C150,128 300,172 450,150 C600,128 750,172 900,150 C1050,128 1150,148 1200,144 L1200,280 L0,280 Z" fill="#BFE3E2"/>
+        <g class="fish fish-1" transform="translate(160,190) rotate(-6) scale(0.85)">
+          <path d="M0,0 C6,-9 20,-9 26,0 C20,9 6,9 0,0 Z" fill="#EAF8F7"/>
+          <path d="M0,0 L-11,-7 L-11,7 Z" fill="#EAF8F7"/>
+          <circle cx="19" cy="-1.5" r="1.3" fill="#0B2A3D"/>
+        </g>
+        <g class="fish fish-3" transform="translate(230,210) rotate(5) scale(0.65)">
+          <path d="M0,0 C6,-9 20,-9 26,0 C20,9 6,9 0,0 Z" fill="#DFF3EF"/>
+          <path d="M0,0 L-11,-7 L-11,7 Z" fill="#DFF3EF"/>
+          <circle cx="19" cy="-1.5" r="1.3" fill="#0B2A3D"/>
+        </g>
+        <path d="M0,205 C150,188 300,222 450,205 C600,188 750,222 900,205 C1050,188 1150,200 1200,196 L1200,280 L0,280 Z" fill="#1B6FA8"/>
+        <path d="M0,245 C150,232 300,258 450,245 C600,232 750,258 900,245 C1050,232 1150,244 1200,240 L1200,280 L0,280 Z" fill="#0B2A3D"/>
+        <g class="seaweed seaweed-1" transform="translate(60,280)">
+          <path d="M0,0 C-9,-22 6,-35 -2,-58" stroke="#12968C" stroke-width="4.5" fill="none" stroke-linecap="round" opacity="0.6"/>
+        </g>
+      </svg>
+
+      <div class="relative z-10 max-w-4xl mx-auto px-6 pt-14 pb-12">
+        <button onclick="Router.go('dashboard')" class="inline-flex items-center gap-2 text-sm text-slate hover:text-ink transition-colors mb-8 group">
+          <i class="ti ti-arrow-left text-base group-hover:-translate-x-0.5 transition-transform"></i>
+          Zurück zum Logbuch
+        </button>
+
+        <div class="flex items-center gap-3 mb-4">
+          <span class="text-xs uppercase tracking-[0.2em] text-azure font-semibold">
+            ${week.id === 0 ? 'Vorbereitung' : 'Woche ' + week.id}
+          </span>
+          ${week.graded ? `
+            <span class="flex items-center gap-2 text-xs font-medium text-azure bg-azure/10 pl-1.5 pr-3 py-1 rounded-full">
+              ${personBadgeSVG(18)} Benotungsrelevant
+            </span>` : `
+            <span class="flex items-center gap-1.5 text-xs font-medium text-slate bg-ink/5 px-2.5 py-1 rounded-full">
+              <i class="ti ti-anchor text-xs"></i> Dokumentiert
+            </span>`
+          }
+        </div>
+
+        <h1 class="font-display text-4xl md:text-5xl leading-tight text-ink">${week.title}</h1>
+        <p class="text-slate text-lg mt-3 max-w-xl">${week.tag}</p>
+      </div>
+    </header>
+
+    <div class="max-w-4xl mx-auto px-6 py-12 space-y-16">
+
+      <!-- SEKTION 1: KEY LEARNINGS / REFLEXION -->
+      <section>
+        <div class="flex items-center gap-3 mb-6">
+          <i class="ti ti-notebook text-azure text-lg"></i>
+          <h2 class="font-display text-2xl text-ink">Key Learnings &amp; Reflexion</h2>
+        </div>
+        <div class="prose max-w-none text-ink/85 leading-relaxed space-y-4 [&_p]:mb-4 [&_strong]:text-ink [&_code]:bg-ink/5 [&_code]:px-1.5 [&_code]:py-0.5 [&_code]:rounded [&_code]:text-sm">
+          ${d.reflection}
+        </div>
+      </section>
+
+      <!-- SEKTION 2: RESSOURCEN & MEDIEN -->
+      <section>
+        <div class="flex items-center gap-3 mb-6">
+          <i class="ti ti-photo text-azure text-lg"></i>
+          <h2 class="font-display text-2xl text-ink">Ressourcen &amp; Medien</h2>
+        </div>
+
+        ${hasAnyMedia ? `
+          <div class="space-y-8">
+            ${hasImages ? `
+              <div class="grid grid-cols-1 ${d.media.images.length > 1 ? 'sm:grid-cols-2' : ''} gap-4">
+                ${d.media.images.map(img => `
+                  <figure class="border border-ink/10 rounded-xl overflow-hidden bg-white shadow-sm">
+                    <img src="${img.src}" alt="${img.caption}" class="w-full h-56 object-cover">
+                    <figcaption class="text-xs text-slate px-3 py-2 border-t border-ink/10">${img.caption}</figcaption>
+                  </figure>
+                `).join('')}
+              </div>
+            ` : ''}
+
+            ${hasVideo ? `
+              <div>
+                <div class="aspect-video w-full border border-ink/10 rounded-xl overflow-hidden bg-ink-deep shadow-sm">
+                  <iframe class="w-full h-full" src="${d.media.video.url}" title="${d.media.video.caption}" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <p class="text-xs text-slate mt-2">${d.media.video.caption}</p>
+              </div>
+            ` : ''}
+
+            ${hasAudio ? `
+              <div class="border border-ink/10 rounded-xl p-4 bg-white flex items-center gap-4 shadow-sm">
+                <i class="ti ti-headphones text-2xl text-azure"></i>
+                <div class="flex-1">
+                  <p class="text-sm text-ink mb-2">${d.media.audio.caption}</p>
+                  <audio controls class="w-full h-10"><source src="${d.media.audio.src}"></audio>
+                </div>
+              </div>
+            ` : ''}
+          </div>
+        ` : `
+          <div class="tile-media-empty border border-dashed border-ink/15 rounded-xl p-10 text-center">
+            <i class="ti ti-mist text-3xl text-ink/20 mb-3 block"></i>
+            <p class="text-sm text-slate">Für diese Etappe wurden keine zusätzlichen Medien angelegt.</p>
+          </div>
+        `}
+      </section>
+
+      <!-- SEKTION 3: VERKNÜPFUNG NOTION -->
+      <section class="border-t border-ink/10 pt-10">
+        <div class="bg-ink text-white rounded-2xl p-6 sm:p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5 shadow-md">
+          <div class="flex items-start gap-4">
+            <i class="ti ti-anchor text-2xl text-turquoise-light mt-0.5"></i>
+            <div>
+              <h3 class="font-display text-lg mb-1">Wochenprotokoll &amp; Vorbereitung</h3>
+              <p class="text-sm text-white/60 max-w-md">Vollständige Protokolle, Rechercheunterlagen und Vorbereitungsnotizen zu dieser Etappe finden Sie in meinem Notion-Workspace.</p>
+            </div>
+          </div>
+          <a href="${d.notionUrl}" target="_blank" rel="noopener"
+             class="flex-shrink-0 inline-flex items-center gap-2 bg-azure hover:bg-azure-light transition-colors text-white font-medium text-sm px-5 py-3 rounded-xl">
+            Zum Notion-Protokoll <i class="ti ti-external-link text-sm"></i>
+          </a>
+        </div>
+      </section>
+
+      <!-- WOCHEN-NAVIGATION -->
+      <nav class="flex items-center justify-between border-t border-ink/10 pt-8">
+        ${renderWeekNav(week.id, -1)}
+        ${renderWeekNav(week.id, 1)}
+      </nav>
+
+    </div>
+  `;
+}
+
+function renderWeekNav(currentId, direction) {
+  const targetId = currentId + direction;
+  const target = weeksData.find(w => w.id === targetId);
+  if (!target) return `<span></span>`;
+  const isPrev = direction === -1;
+  return `
+    <button onclick="Router.go('week', ${target.id})" class="group flex items-center gap-2 text-sm text-slate hover:text-ink transition-colors ${isPrev ? '' : 'ml-auto text-right flex-row-reverse'}">
+      <i class="ti ${isPrev ? 'ti-chevron-left' : 'ti-chevron-right'} group-hover:${isPrev ? '-translate-x-0.5' : 'translate-x-0.5'} transition-transform"></i>
+      <span>
+        <span class="block text-xs text-ink/40">${isPrev ? 'Vorherige Etappe' : 'Nächste Etappe'}</span>
+        <span class="font-medium">${target.title}</span>
+      </span>
+    </button>
+  `;
+}
+
+/* ================================================================
+   ROUTER
+================================================================ */
+const Router = {
+  go(view, weekId) {
+    document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+    if (view === 'dashboard') {
+      document.getElementById('view-dashboard').classList.add('active');
+      document.getElementById('nav-week-indicator').innerHTML = '';
+    } else if (view === 'week') {
+      renderWeekDetail(weekId);
+      document.getElementById('view-week').classList.add('active');
+      const w = weeksData.find(x => x.id === weekId);
+      document.getElementById('nav-week-indicator').innerHTML =
+        `<i class="ti ti-map-pin text-azure text-sm"></i> ${w.id === 0 ? 'Vorbereitung' : 'Woche ' + w.id} — ${w.title}`;
+    }
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+};
+
+renderGrid();
+</script>
+
+</body>
+</html>
