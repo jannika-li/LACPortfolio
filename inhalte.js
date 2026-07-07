@@ -79,8 +79,8 @@ const SEITENTEXTE = {
 
   etappenUeberschrift: "The journey stages",
 
-  footerText:  "Digitale Logook · Leadership Across Cultures · summer semester 2026",
-  footerRoute: "Hamburg → vast sea → vast world"
+  footerText:  "Digital Logbook · Leadership Across Cultures · Summer Semester 2026",
+  footerRoute: "Hamburg → Vast Sea → Vast World"
 };
 
 
