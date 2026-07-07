@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title id="page-title">Logbuch — Leadership across Cultures</title>
+<title id="page-title">Logbook — Leadership Across Cultures</title>
 <script src="https://cdn.tailwindcss.com"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@tabler/icons-webfont@2.47.0/dist/tabler-icons.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -158,7 +158,7 @@
       <i class="ti ti-anchor text-xl text-azure group-hover:rotate-12 transition-transform"></i>
       <span class="font-display text-lg tracking-tight">
         <span id="nav-titel-kurz">Logbuch</span>
-        <span id="nav-titel-lang" class="text-slate font-sans text-sm font-normal">— Leadership across Cultures</span>
+        <span id="nav-titel-lang" class="text-slate font-sans text-sm font-normal">— Leadership Across Cultures</span>
       </span>
     </button>
     <div id="nav-week-indicator" class="hidden md:flex items-center gap-2 text-sm text-slate"></div>
@@ -253,7 +253,7 @@
     <div class="relative z-10 max-w-6xl mx-auto px-6 pt-16 pb-16">
       <div class="flex items-center gap-2 text-xs uppercase tracking-[0.2em] text-azure font-semibold mb-5">
         <i class="ti ti-compass text-base"></i>
-        <span id="hero-kicker">Semesterreise 2026 · Hamburg</span>
+        <span id="hero-kicker">Learning Journey 2026 · Hamburg</span>
       </div>
 
       <h1 id="hero-titel" class="font-display text-4xl md:text-5xl leading-[1.1] mb-6 max-w-2xl drop-shadow-sm">
@@ -266,14 +266,14 @@
       <div class="inline-flex flex-wrap items-center gap-x-8 gap-y-3 bg-white/85 backdrop-blur-sm border border-ink/10 rounded-2xl px-6 py-4 shadow-sm">
         <div class="flex items-center gap-2.5">
           <span class="badge-glow rounded-full" id="badge-svg-slot-legend"></span>
-          <span class="text-sm text-ink"><span class="font-medium" id="legende-benotet-fett">Benotungsrelevant</span> <span id="legende-benotet-rest">— zur Bewertung eingereicht</span></span>
+          <span class="text-sm text-ink"><span class="font-medium" id="legende-benotet-fett">Included in portfolio selection for final grading</span> <span id="legende-benotet-rest">— portolio selection</span></span>
         </div>
         <div class="w-px h-5 bg-ink/10 hidden sm:block"></div>
         <div class="flex items-center gap-2.5">
           <span class="relative flex h-7 w-7 items-center justify-center rounded-full border border-ink/20 text-ink/35">
             <i class="ti ti-anchor text-sm"></i>
           </span>
-          <span class="text-sm text-slate" id="legende-dokumentiert">Dokumentiert, nicht benotet</span>
+          <span class="text-sm text-slate" id="legende-dokumentiert">documented, but not in portfolio selection</span>
         </div>
       </div>
     </div>
@@ -290,7 +290,7 @@
   <section class="max-w-6xl mx-auto px-6 pb-14 pt-2">
     <div class="flex items-center gap-3 mb-8">
       <div class="h-px flex-1 bg-ink/10"></div>
-      <span class="text-xs uppercase tracking-[0.2em] text-slate font-medium px-2" id="etappen-ueberschrift">Die Etappen</span>
+      <span class="text-xs uppercase tracking-[0.2em] text-slate font-medium px-2" id="etappen-ueberschrift">Journey Stages</span>
       <div class="h-px flex-1 bg-ink/10"></div>
     </div>
 
@@ -302,8 +302,8 @@
       <path d="M0,15 C150,0 300,28 450,14 C600,0 750,28 900,14 C1050,0 1150,15 1200,12 L1200,30 L0,30 Z" fill="#1B6FA8" opacity="0.85"/>
     </svg>
     <div class="max-w-6xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-2 text-xs text-slate">
-      <span id="footer-text">Digitales Logbuch · Leadership across Cultures · Sommersemester 2026</span>
-      <span class="flex items-center gap-1.5"><i class="ti ti-map-2 text-sm"></i> <span id="footer-route">Hamburg → weite See → Hamburg</span></span>
+      <span id="footer-text">Digital Logbook · Leadership Across Cultures · summer semester 2026</span>
+      <span class="flex items-center gap-1.5"><i class="ti ti-map-2 text-sm"></i> <span id="footer-route">Hamburg → vast sea → vast world</span></span>
     </div>
   </footer>
 </main>
@@ -389,7 +389,7 @@ function renderGrid() {
             </span>
             ${week.graded
               ? `<span class="badge-glow rounded-full">${personBadgeSVG(30)}</span>`
-              : `<span class="flex items-center justify-center h-7 w-7 rounded-full border border-ink/15 text-ink/25" title="Not to be taken into account">
+              : `<span class="flex items-center justify-center h-7 w-7 rounded-full border border-ink/15 text-ink/25" title="Documented, but not in portfolio selection">
                    <i class="ti ti-anchor text-sm"></i>
                  </span>`
             }
@@ -416,7 +416,7 @@ function renderGrid() {
             `).join('')}
           </ul>
           <span class="text-xs text-white/50 flex items-center gap-1">
-            Click here for details <i class="ti ti-arrow-right text-xs"></i>
+            Click for details <i class="ti ti-arrow-right text-xs"></i>
           </span>
         </div>
 
@@ -479,7 +479,7 @@ function renderWeekDetail(id) {
       <div class="relative z-10 max-w-4xl mx-auto px-6 pt-14 pb-12">
         <button onclick="Router.go('dashboard')" class="inline-flex items-center gap-2 text-sm text-slate hover:text-ink transition-colors mb-8 group">
           <i class="ti ti-arrow-left text-base group-hover:-translate-x-0.5 transition-transform"></i>
-          Zurück zum Logbuch
+          Back to logbook overview
         </button>
 
         <div class="flex items-center gap-3 mb-4">
@@ -488,10 +488,10 @@ function renderWeekDetail(id) {
           </span>
           ${week.graded ? `
             <span class="flex items-center gap-2 text-xs font-medium text-azure bg-azure/10 pl-1.5 pr-3 py-1 rounded-full">
-              ${personBadgeSVG(18)} To be graded
+              ${personBadgeSVG(18)} Included in portfolio selection for final grading
             </span>` : `
             <span class="flex items-center gap-1.5 text-xs font-medium text-slate bg-ink/5 px-2.5 py-1 rounded-full">
-              <i class="ti ti-anchor text-xs"></i> documented
+              <i class="ti ti-anchor text-xs"></i> documented and included in portfolio selection
             </span>`
           }
         </div>
@@ -556,7 +556,7 @@ function renderWeekDetail(id) {
         ` : `
           <div class="tile-media-empty border border-dashed border-ink/15 rounded-xl p-10 text-center">
             <i class="ti ti-mist text-3xl text-ink/20 mb-3 block"></i>
-            <p class="text-sm text-slate">For this week there is no additional MEdia Selection</p>
+            <p class="text-sm text-slate">For this week there is no additional Media Selection</p>
           </div>
         `}
       </section>
@@ -567,13 +567,13 @@ function renderWeekDetail(id) {
           <div class="flex items-start gap-4">
             <i class="ti ti-anchor text-2xl text-turquoise-light mt-0.5"></i>
             <div>
-              <h3 class="font-display text-lg mb-1">Wochenprotokoll &amp; Vorbereitung</h3>
+              <h3 class="font-display text-lg mb-1">Weekly protocol &amp; Preparation</h3>
               <p class="text-sm text-white/60 max-w-md">Weekly protocol including the weekly preparation can be found in my Notion-Workspace.</p>
             </div>
           </div>
           <a href="${d.notionUrl}" target="_blank" rel="noopener"
              class="flex-shrink-0 inline-flex items-center gap-2 bg-azure hover:bg-azure-light transition-colors text-white font-medium text-sm px-5 py-3 rounded-xl">
-            Notion Protocol <i class="ti ti-external-link text-sm"></i>
+            Notion-Worksapce <i class="ti ti-external-link text-sm"></i>
           </a>
         </div>
       </section>
