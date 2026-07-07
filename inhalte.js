@@ -197,16 +197,26 @@ const weeksData = [
   {
     id: 3,
     title: "Power of Talk",
-    tag: "✏️ Kurzbeschreibung hier ergänzen",
+    tag: "Discovering research to the different use of language of women and men",
     icon: "ti-sailboat",
     keyLearnings: [
-      "✏️ Key Learning 1 hier eintragen",
-      "✏️ Key Learning 2 hier eintragen"
+      "Decoding diversity in language to unleash potential"
     ],
     detail: {
       reflection: `
-        <p>✏️ Hier deinen Reflexionstext zu Woche 3 eintragen — du kannst mehrere &lt;p&gt;-Absätze
-        verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
+        <p><strong>Key Learning: </strong>An inclusive leader decodes diverse communication styles rather 
+        than penalizing them by judging them by their own lense. By establishing a shared course instead 
+        of forcing conformity, leaders unlock the collective power of both gender and cultural diversity</p>
+        <p><strong>Metaphor: </strong>A diverse team is like a sailboat crew navigating open waters. The team
+        members are the sails, but their different cultural and gender backgrounds mean they are shaped
+       differently and catch the wind at different angles.</p> 
+       <p>An inexperienced captain might expect every sail to be trimmed exactly the same way. When one sail
+       doesn't catch the wind as expected, the captain might blame the fabric, calling it weak or ineffective.</p>
+       <p>An inclusive leader, however, acts as a master sailor. They understand that the sails aren't flawed; 
+       they just react differently to the wind. Instead of forcing every sail into the same rigid position, or 
+       penalizing the ones that don't fit the mold, the leader adjusts the rigging, teaches the crew how to read 
+       the unique tension of each sail, and establishes a shared course. They don't change the wind, nor do they 
+       replace the sails; they optimize how the ship uses the collective power of all sails to move forward together</p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-3-Assignment-Tasks-3796fc3d3bd5800abcbfdf9613ae25a0?source=copy_link"
     }
