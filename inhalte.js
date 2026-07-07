@@ -142,15 +142,27 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p>In Woche 1 haben wir die klassischen Kulturdimensionsmodelle von Hofstede und Trompenaars
-        untersucht. Besonders spannend war der Abgleich mit meiner eigenen Biografie: Als jemand mit
-        deutscher und mexikanischer Herkunft erlebe ich viele der postulierten Gegensätze — etwa
-        Individualismus versus Kollektivismus — nicht als klare Trennlinie, sondern als ständiges Pendeln.</p>
-        <p><strong>Kernerkenntnis:</strong> Kulturmodelle sind nützliche Landkarten, aber keine exakten
-        Seekarten. Sie zeigen grobe Strömungen, nicht jede einzelne Welle. Für Führungskräfte bedeutet das:
-        Modelle als Ausgangspunkt nutzen, aber nie als Ersatz für echtes Zuhören.</p>
-        <p>Die Gruppendiskussion mit Kommiliton:innen aus vier verschiedenen Ländern hat diese These
-        eindrücklich bestätigt — die Selbsteinschätzungen wichen oft stark von den Modellvorhersagen ab.</p>`,
+        <p><strong>Key Learning:<\strong>From an outside perspective, the leader and the team are often 
+        treated as separate entities. While external pressure—such as hitting specific KPIs—rests entirely
+        on the leader's shoulders, truly complex challenges can only be mastered by a well-functioning team.
+        Instead of merely passing that external pressure down, a leader must understand, unite, and realign
+        the team. When a leader understands and leverages this duality, the team develops a collective 
+        intelligence and strength that enables its members to actively take ownership and protect the leader
+        from risks.</p>
+        <p>Crisis leadership is a two-way promise of protection. While the leader sets the strategic 
+        direction and safeguards the collective against strategic errors, the workforce reciprocates by 
+        proactively shielding the leadership from the unpredictable. This dynamic only emerges when employees 
+        experience that their values and psychological safety are actively defended ("Identity Championing"). 
+        Identity-driven leadership thus transforms a passive group into a highly adaptive, loyal early-warning
+        system.</p>
+        <p><strong>Metaphor:<\strong>From an outside perspective, the skipper (leader) and the crew (team) are
+        often evaluated separately. The pressure from the outside world—whether the boat crosses the finish 
+        line first—usually rests solely on the leader's shoulders. In reality, however, the truly difficult 
+        storms can only be weathered by a well-functioning team. Instead of passing that external pressure 
+        down unfiltered, the leader must understand the crew, forge them into a united front, and set a clear 
+        course. When a leader understands and leverages this duality, the crew develops a collective intelligence
+        and strength, enabling crew members to support the leader by actively taking responsibility during 
+        unforeseen dangers (storms), allowing the team to emerge from crises faster and stronger.</p>`,
       media: {
         images: [
           { src: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&q=80", caption: "Gruppenarbeit: Kulturdimensionen im Vergleich" },
