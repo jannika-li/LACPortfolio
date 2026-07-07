@@ -185,7 +185,7 @@ const weeksData = [
       media: { images: [], video: null, audio: null },
       notionUrl: "https://notion.so/beispiel-woche-2"
     }
-  }
+  },
   {
     id: 3,
     title: "The Power of Talk",
@@ -216,7 +216,7 @@ const weeksData = [
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-3-Assignment-Tasks-3796fc3d3bd5800abcbfdf9613ae25a0?source=copy_link"
     }
-  } 
+  }, 
 ];
 
 
