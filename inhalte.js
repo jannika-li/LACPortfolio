@@ -61,12 +61,12 @@ const FOTO_BADGE_URL = PROFESSORIN_FOTO_BASE64;
    ✏️ 4) SEITENTEXTE (Titel, Navigationsleiste, Startseite, Fußzeile)
    ──────────────────────────────────────────────────────────────────────── */
 const SEITENTEXTE = {
-  browserTab:      "Logbuch - Leadership Across Cultures - Jannika Eberhardt",
+  browserTab:      "Logbook - Leadership Across Cultures - Jannika Eberhardt",
 
-  navTitelKurz:    "Logbuch",
+  navTitelKurz:    "Logbook",
   navTitelLang:    "- Leadership Aross Cultures - Jannika Eberhardt",
 
-  heroKicker:      "Semesterreise 2026 · Hamburg",
+  heroKicker:      "Learning Journey 2026 · Hamburg",
   heroTitel:       "Kurs gesetzt: Führung über kulturelle Gewässer hinweg",
   heroText: `Dieses digitale Logbuch dokumentiert meine 13-wöchige Reise durch das Modul
     <span class="text-ink font-medium">„Leadership across Cultures"</span>.
@@ -74,13 +74,13 @@ const SEITENTEXTE = {
     Liebe Frau Professorin, alle Etappen sind einsehbar; die unten markierten Wochen
     sind jene, die ich zur Benotung eingereicht habe.`,
 
-  legendeBenotet:      "Benotungsrelevant — zur Bewertung eingereicht",
-  legendeDokumentiert: "Dokumentiert, nicht benotet",
+  legendeBenotet:      "documented and included in portfolio selection for final grading",
+  legendeDokumentiert: "documented, but not in portfolio selection",
 
-  etappenUeberschrift: "Die Etappen",
+  etappenUeberschrift: "The journey stages",
 
-  footerText:  "Digitales Logbuch · Leadership across Cultures · Sommersemester 2026",
-  footerRoute: "Hamburg → weite See → Weite Welt"
+  footerText:  "Digitale Logook · Leadership Across Cultures · summer semester 2026",
+  footerRoute: "Hamburg → vast sea → vast world"
 };
 
 
