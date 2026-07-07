@@ -172,8 +172,8 @@ const weeksData = [
   },
   {
     id: 2,
-    title: "FISH!-Philosophie",
-    tag: "Philosophie that can build strong, engaging, customer-focused organisations",
+    title: "FISH!-Philosophy",
+    tag: "Philosophy that can build strong, engaging, customer-focused organisations",
     icon: "ti-messages",
     keyLearnings: [
       "Humans aren't machines; they require active engagement rather than just repetitive tasks"
