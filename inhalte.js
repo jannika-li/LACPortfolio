@@ -67,17 +67,15 @@ const SEITENTEXTE = {
   navTitelLang:    "- Leadership Aross Cultures - Jannika Eberhardt",
 
   heroKicker:      "Learning Journey 2026 · Hamburg",
-  heroTitel:       "Kurs gesetzt: Führung über kulturelle Gewässer hinweg",
-  heroText: `Dieses digitale Logbuch dokumentiert meine 13-wöchige Reise durch das Modul
-    <span class="text-ink font-medium">„Leadership across Cultures"</span>.
-    Jede Kachel entspricht einer Woche an Bord — von den Zielen bis zur Zieleinfahrt.
-    Liebe Frau Professorin, alle Etappen sind einsehbar; die unten markierten Wochen
-    sind jene, die ich zur Benotung eingereicht habe.`,
+  heroTitel:       "Setting Course: Navigating Cultural Waters",
+  heroText: `Sailing the seas of global leadership. Welcome to my learning journal. This space serves as a record of my insights and media on
+    <span class="text-ink font-medium">„Leadership Across Cultures"</span>,
+    approached through the lens of a maritime journey. Discover the lessons learned when adventure meets diverse cultural horizons.`,
 
   legendeBenotet:      "documented and included in portfolio selection for final grading",
   legendeDokumentiert: "documented, but not in portfolio selection",
 
-  etappenUeberschrift: "The journey stages",
+  etappenUeberschrift: "The Journey Stages",
 
   footerText:  "Digital Logbook · Leadership Across Cultures · Summer Semester 2026",
   footerRoute: "Hamburg → Vast Sea → Vast World"
