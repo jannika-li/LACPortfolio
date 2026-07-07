@@ -173,23 +173,23 @@ const weeksData = [
   {
     id: 2,
     title: "FISH!-Philosophie",
-    tag: "High-Context vs. Low-Context",
+    tag: "Philosophie that can build strong, engaging, customer-focused organisations",
     icon: "ti-messages",
     keyLearnings: [
-      "Direkte vs. indirekte Kommunikation erlebt",
-      "Missverständnisse im Rollenspiel analysiert"
+      "Humans aren't machines; they require active engagement rather than just repetitive tasks"
     ],
     detail: {
       reflection: `
-        <p>Diese Woche stand im Zeichen von High-Context- und Low-Context-Kommunikation. In einem
-        Rollenspiel mussten wir eine Verhandlungssituation einmal „deutsch-direkt" und einmal
-        „hochkontextuell-indirekt" durchspielen.</p>
-        <p>Die größte Erkenntnis für mich: Indirektheit ist keine Schwäche, sondern eine eigene Form von
-        Präzision — sie verlagert die Bedeutung vom expliziten Wort in den Kontext, den Tonfall und die
-        Beziehung. Für mein eigenes Führungsverständnis nehme ich mit, dass ich lernen muss, „zwischen
-        den Zeilen" aktiver zuzuhören.</p>
-        <p>Diese Woche ist dokumentiert, aber nicht Teil meiner Benotungsauswahl — sie war dennoch ein
-        wichtiger Baustein für das Verständnis der folgenden Etappen.</p>`,
+        <p><strong>Key Learning: </strong>Underemployment and underutilization can be significant challenges
+        in certain industries and roles. Humans are not machines; they thrive on engagement rather than mere
+        repetition. When a deeper sense of purpose is temporarily missing from a task, introducing elements 
+        of fun and playfulness can drastically improve motivation, morale, and overall well-being.</p>
+        <p><strong>Metaphor: </strong>In sailing, the greatest threat isn't always a storm; it is the "doldrums", 
+        the complete absence of wind that leaves a ship stranded and stagnant. Similarly, in many industries, being
+        underchallenged kills momentum because humans are not automated engines built to run on a fixed track. When 
+        the external "wind" of a deep, systemic purpose is missing, a team must rely on their own crew morale. 
+        Injecting energy, creativity, and a playful attitude acts like catching a sudden breeze, transforming a 
+        stagnant drift into a motivated journey</p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-2-Assignment-Tasks-Fish-3796fc3d3bd58014b709ce91ea0af425?source=copy_link"
     }
