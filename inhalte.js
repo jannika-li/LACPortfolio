@@ -159,7 +159,7 @@ const weeksData = [
         video: { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", caption: "Kurzvortrag: Hofstede in der Praxis (Seminaraufzeichnung)" },
         audio: { src: "", caption: "Podcast-Reflexion (folgt)" }
       },
-      notionUrl: "https://notion.so/beispiel-woche-1"
+      notionUrl: "https://app.notion.com/p/Week-1-Assignment-Tasks-3256fc3d3bd58006a49fd1583d801e3b?source=copy_link"
     }
   },
   {
