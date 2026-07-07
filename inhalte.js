@@ -142,7 +142,7 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong>Key Learning:<\strong>From an outside perspective, the leader and the team are often 
+        <p><strong>Key Learning: </strong>From an outside perspective, the leader and the team are often 
         treated as separate entities. While external pressure—such as hitting specific KPIs—rests entirely
         on the leader's shoulders, truly complex challenges can only be mastered by a well-functioning team.
         Instead of merely passing that external pressure down, a leader must understand, unite, and realign
@@ -155,7 +155,7 @@ const weeksData = [
         experience that their values and psychological safety are actively defended ("Identity Championing"). 
         Identity-driven leadership thus transforms a passive group into a highly adaptive, loyal early-warning
         system.</p>
-        <p><strong>Metaphor:<\strong>From an outside perspective, the skipper (leader) and the crew (team) are
+        <p><strong>Metaphor: </strong>From an outside perspective, the skipper (leader) and the crew (team) are
         often evaluated separately. The pressure from the outside world—whether the boat crosses the finish 
         line first—usually rests solely on the leader's shoulders. In reality, however, the truly difficult 
         storms can only be weathered by a well-functioning team. Instead of passing that external pressure 
