@@ -127,7 +127,7 @@ const weeksData = [
         video: null,
         audio: null
       },
-      notionUrl: "https://notion.so/beispiel-woche-0"
+      notionUrl: "https://app.notion.com/p/Week-0-Objectives-3256fc3d3bd580aa9b0fdd6ace9693e5?source=copy_link"
     }
   },
   {
@@ -159,7 +159,7 @@ const weeksData = [
         video: { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", caption: "Kurzvortrag: Hofstede in der Praxis (Seminaraufzeichnung)" },
         audio: { src: "", caption: "Podcast-Reflexion (folgt)" }
       },
-      notionUrl: "https://notion.so/beispiel-woche-1"
+      notionUrl: "https://app.notion.com/p/Week-1-Assignment-Tasks-3256fc3d3bd58006a49fd1583d801e3b?source=copy_link"
     }
   },
   {
@@ -183,7 +183,7 @@ const weeksData = [
         <p>Diese Woche ist dokumentiert, aber nicht Teil meiner Benotungsauswahl — sie war dennoch ein
         wichtiger Baustein für das Verständnis der folgenden Etappen.</p>`,
       media: { images: [], video: null, audio: null },
-      notionUrl: "https://notion.so/beispiel-woche-2"
+      notionUrl: "https://app.notion.com/p/Week-2-Assignment-Tasks-Fish-3796fc3d3bd58014b709ce91ea0af425?source=copy_link"
     }
   },
   {
@@ -200,7 +200,7 @@ const weeksData = [
         <p>✏️ Hier deinen Reflexionstext zu Woche 3 eintragen — du kannst mehrere &lt;p&gt;-Absätze
         verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
       media: { images: [], video: null, audio: null },
-      notionUrl: "https://notion.so/beispiel-woche-3"
+      notionUrl: "https://app.notion.com/p/Week-3-Assignment-Tasks-3796fc3d3bd5800abcbfdf9613ae25a0?source=copy_link"
     }
   },
   {
@@ -217,7 +217,7 @@ const weeksData = [
         <p>✏️ Hier deinen Reflexionstext zu Woche 4 eintragen — du kannst mehrere &lt;p&gt;-Absätze
         verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
       media: { images: [], video: null, audio: null },
-      notionUrl: "https://notion.so/beispiel-woche-4"
+      notionUrl: "https://app.notion.com/p/Week-4-Assignment-Tasks-37a6fc3d3bd58050b85cfb29a15cbda4?source=copy_link"
     }
   },
   {
@@ -234,7 +234,7 @@ const weeksData = [
         <p>✏️ Hier deinen Reflexionstext zu Woche 5 eintragen — du kannst mehrere &lt;p&gt;-Absätze
         verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
       media: { images: [], video: null, audio: null },
-      notionUrl: "https://notion.so/beispiel-woche-5"
+      notionUrl: "https://app.notion.com/p/Week-5-Assignment-Tasks-37c6fc3d3bd5807d9a89c5633a947f28?source=copy_link"
     }
   },
   {
@@ -251,7 +251,7 @@ const weeksData = [
         <p>✏️ Hier deinen Reflexionstext zu Woche 6 eintragen — du kannst mehrere &lt;p&gt;-Absätze
         verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
       media: { images: [], video: null, audio: null },
-      notionUrl: "https://notion.so/beispiel-woche-6"
+      notionUrl: "https://app.notion.com/p/Week-6-Assignment-Tasks-37d6fc3d3bd58034b4cafa61b8303734?source=copy_link"
     }
   },
   {
@@ -268,7 +268,7 @@ const weeksData = [
         <p>✏️ Hier deinen Reflexionstext zu Woche 7 eintragen — du kannst mehrere &lt;p&gt;-Absätze
         verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
       media: { images: [], video: null, audio: null },
-      notionUrl: "https://notion.so/beispiel-woche-7"
+      notionUrl: "https://app.notion.com/p/Week-7-Assignment-Tasks-3606fc3d3bd5802e92d1e7ab71625e09?source=copy_link"
     }
   },
   {
@@ -285,7 +285,7 @@ const weeksData = [
         <p>✏️ Hier deinen Reflexionstext zu Woche 8 eintragen — du kannst mehrere &lt;p&gt;-Absätze
         verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
       media: { images: [], video: null, audio: null },
-      notionUrl: "https://notion.so/beispiel-woche-8"
+      notionUrl: "https://app.notion.com/p/Week-8-Assignment-Tasks-35f6fc3d3bd5807b8affe04d612c9f41?source=copy_link"
     }
   },
   {
@@ -302,7 +302,7 @@ const weeksData = [
         <p>✏️ Hier deinen Reflexionstext zu Woche 9 eintragen — du kannst mehrere &lt;p&gt;-Absätze
         verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
       media: { images: [], video: null, audio: null },
-      notionUrl: "https://notion.so/beispiel-woche-9"
+      notionUrl: "https://app.notion.com/p/Week-9-Assignment-Tasks-3616fc3d3bd580359ba6f2eb296f784b?source=copy_link"
     }
   },
   {
@@ -319,7 +319,7 @@ const weeksData = [
         <p>✏️ Hier deinen Reflexionstext zu Woche 10 eintragen — du kannst mehrere &lt;p&gt;-Absätze
         verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
       media: { images: [], video: null, audio: null },
-      notionUrl: "https://notion.so/beispiel-woche-10"
+      notionUrl: "https://app.notion.com/p/Week-10-Assignment-Tasks-3656fc3d3bd580508f4fdc959579efc7?source=copy_link"
     }
   },
   {
@@ -336,7 +336,7 @@ const weeksData = [
         <p>✏️ Hier deinen Reflexionstext zu Woche 11 eintragen — du kannst mehrere &lt;p&gt;-Absätze
         verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
       media: { images: [], video: null, audio: null },
-      notionUrl: "https://notion.so/beispiel-woche-11"
+      notionUrl: "https://app.notion.com/p/Week-11-Assignment-Tasks-37a6fc3d3bd580eda4aeef30b8fa4dde?source=copy_link"
     }
   },
   {
@@ -353,7 +353,7 @@ const weeksData = [
         <p>✏️ Hier deinen Reflexionstext zu Woche 12 eintragen — du kannst mehrere &lt;p&gt;-Absätze
         verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
       media: { images: [], video: null, audio: null },
-      notionUrl: "https://notion.so/beispiel-woche-12"
+      notionUrl: "https://app.notion.com/p/Week-12-Assignment-Tasks-3776fc3d3bd5803fa123cc1dff556bb0?source=copy_link"
     }
   }
 ];
