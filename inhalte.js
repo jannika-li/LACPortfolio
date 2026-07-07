@@ -131,12 +131,10 @@ const weeksData = [
   {
     id: 1,
     title: "Social Identity Theory of Leadership",
-    tag: "Hofstede & Trompenaars im Praxistest",
+    tag: "Grasping the Theory through Molly's Case",
     icon: "ti-map-2",
     keyLearnings: [
-      "Hofstedes Dimensionen kritisch hinterfragt",
-      "Eigene kulturelle Prägung reflektiert",
-      "Grenzen von Kulturmodellen erkannt"
+      "Crisis Leadership is a Two-Way Shield: Protect your crew’s psychological safety, and they will protect the ship from unexpected storms"
     ],
     detail: {
       reflection: `
