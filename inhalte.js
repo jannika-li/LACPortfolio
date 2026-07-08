@@ -161,7 +161,7 @@ const weeksData = [
         unforeseen dangers (storms), allowing the team to emerge from crises faster and stronger.</p>`,
       media: {
         images: [
-          { src: "https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?w=800&q=80", caption: "Gruppenarbeit: Kulturdimensionen im Vergleich" },
+          { src: "images/_DSC9150", caption: "Probe" },
           { src: "https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80", caption: "Whiteboard-Mitschrift aus dem Seminar" }
         ],
         video: { url: "https://www.youtube.com/embed/dQw4w9WgXcQ", caption: "Kurzvortrag: Hofstede in der Praxis (Seminaraufzeichnung)" },
