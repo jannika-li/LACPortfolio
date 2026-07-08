@@ -318,8 +318,7 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p>✏️ Hier deinen Reflexionstext zu Woche 9 eintragen — du kannst mehrere &lt;p&gt;-Absätze
-        verwenden und einzelne Wörter mit &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
+        <p><strong> Key Learning: Ownership beats action. </strong></p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-9-Assignment-Tasks-3616fc3d3bd580359ba6f2eb296f784b?source=copy_link"
     }
