@@ -338,6 +338,8 @@ const weeksData = [
         behind roles or titles. Improving the organization feels personal because they are improving the environment they are 
         part of every day. When people genuinely care about their workplace, taking responsibility no longer feels like carrying
         a burden—it feels like creating something they believe in.</p>
+        <p><strong>Metaphor: </strong>No sailor expects to sail in a perfectly straight line. Reaching the destination depends
+        on making countless small course corrections. Taking responsibility means being willing to steer, adjust, and keep moving forward.</p>
         <p><strong>Key Learning: Experiment small, scale what works. </strong></p>
         <p>Many organizations introduce new systems by rolling them out to everyone at once. For employees, this often feels 
         like a disruptive break from familiar ways of working, which naturally creates resistance. But meaningful change rarely 
@@ -350,6 +352,8 @@ const weeksData = [
         does, the solution has already been improved through real experience before being adopted more broadly.</p>
         <p>By experimenting on a small scale first, organizations reduce risk, learn faster, and make change feel like a natural 
         evolution rather than a disruptive transformation.</p>
+        <p><strong>Metaphor: </strong>A fleet sails farther when each boat is free to explore the best route and share what it learns.
+        Instead of one risky decision for everyone, many small experiments help the whole fleet find the safest course together.</p>
         <p><strong>Key Learning: Look for win-win solutions, they exist</strong></p>
         <p>One of the biggest lessons I took away from my internship is how deeply we believe that every solution requires someone to 
         lose. We often assume that if one group benefits, another must inevitably suffer.</p>
@@ -362,7 +366,10 @@ const weeksData = [
         <p>Innovation is not only about creating new products or technologies. Sometimes it means rethinking the rules we have always accepted.
         If an idea has already proven that it can make work more meaningful, organizations more adaptable, and people more fulfilled, then it 
         deserves to be taken seriously. The best solutions are not always those where someone wins at another person's expense—they are the 
-        ones where everyone moves forward together.</p>`,
+        ones where everyone moves forward together.</p>
+        <p><strong>Metaphor: </strong>We often believe that a ship can only move forward because someone is carrying the burden. But the best 
+        vessels prove otherwise: when the crew is motivated, the owner succeeds, and the passengers are satisfied, everyone benefits from the 
+        same journey.</p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-9-Assignment-Tasks-3616fc3d3bd580359ba6f2eb296f784b?source=copy_link"
     }
