@@ -318,7 +318,7 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong> Key Learning: Ownership beats action. </strong></p>
+        <p><strong> Key Learning: Ownership beats inaction. </strong></p>
         <p>During my internship, I realized that the most valuable skill isn't knowledge—it's taking responsibility.
         And that is much harder than it sounds. Responsibility requires energy, courage, and a willingness to make 
         decisions despite uncertainty.</p>
@@ -339,8 +339,30 @@ const weeksData = [
         part of every day. When people genuinely care about their workplace, taking responsibility no longer feels like carrying
         a burden—it feels like creating something they believe in.</p>
         <p><strong>Key Learning: Experiment small, scale what works. </strong></p>
-        
-        </p>`,
+        <p>Many organizations introduce new systems by rolling them out to everyone at once. For employees, this often feels 
+        like a disruptive break from familiar ways of working, which naturally creates resistance. But meaningful change rarely 
+        happens overnight.</p>
+        <p>Instead of transforming an entire organization at once, new processes, tools, or ways of working should first be tested 
+        in small groups whenever possible. These experiments create a safe environment to learn what works, gather continuous feedback, 
+        and refine ideas before expanding them.</p>
+        <p>This is one of the strengths of Teal organizations. Teams operate as small, autonomous units where members can quickly 
+        experiment, adapt, and share their learnings with other teams. If something doesn't work, the impact remains limited. If it 
+        does, the solution has already been improved through real experience before being adopted more broadly.</p>
+        <p>By experimenting on a small scale first, organizations reduce risk, learn faster, and make change feel like a natural 
+        evolution rather than a disruptive transformation.</p>
+        <p><strong>Key Learning: Look for win-win solutions, they exist</strong></p>
+        <p>One of the biggest lessons I took away from my internship is how deeply we believe that every solution requires someone to 
+        lose. We often assume that if one group benefits, another must inevitably suffer.</p>
+        <p>Yet we are looking at a way of organizing companies that has already been proven in practice. There are organizations that 
+        have been working successfully with Teal principles for years. Despite this evidence, many people still struggle to believe that
+        an organization can create better outcomes for everyone involved.</p>
+        <p>This made me question how often we reject new ideas simply because they seem too optimistic. Instead of searching for compromises
+        where everyone gives something up, we should spend more time looking for solutions where everyone gains something. These solutions 
+        exist, but they often require us to challenge long-held assumptions and be willing to do things differently.</p>
+        <p>Innovation is not only about creating new products or technologies. Sometimes it means rethinking the rules we have always accepted.
+        If an idea has already proven that it can make work more meaningful, organizations more adaptable, and people more fulfilled, then it 
+        deserves to be taken seriously. The best solutions are not always those where someone wins at another person's expense—they are the 
+        ones where everyone moves forward together.</p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-9-Assignment-Tasks-3616fc3d3bd580359ba6f2eb296f784b?source=copy_link"
     }
