@@ -312,8 +312,9 @@ const weeksData = [
     tag: "✏️ Kurzbeschreibung hier ergänzen",
     icon: "ti-sailboat",
     keyLearnings: [
-      "✏️ Key Learning 1 hier eintragen",
-      "✏️ Key Learning 2 hier eintragen"
+      "Ownership beats inaction",
+      "Experiment small, scale what works",
+      "Look for win-win solutions, they exist"
     ],
     detail: {
       reflection: `
