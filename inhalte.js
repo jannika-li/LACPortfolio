@@ -318,7 +318,29 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong> Key Learning: Ownership beats action. </strong></p>`,
+        <p><strong> Key Learning: Ownership beats action. </strong></p>
+        <p>During my internship, I realized that the most valuable skill isn't knowledge—it's taking responsibility.
+        And that is much harder than it sounds. Responsibility requires energy, courage, and a willingness to make 
+        decisions despite uncertainty.</p>
+        <p>I believe many people struggle to take responsibility even for their own lives. As a result, the idea of 
+        making important decisions for an organization can feel overwhelming. But organizations only become truly 
+        adaptable when people stop waiting for someone else to act.</p>
+        What stood out to me about Teal organizations is that responsibility is distributed rather than concentrated.
+        Team members are trusted to make decisions after seeking advice from the people affected. The focus shifts from
+        making the perfect decision to making a thoughtful one and continuously improving it. In more traditional 
+        organizations, decisions are often judged more harshly than they are supported, making people afraid to take ownership
+        in the first place.</p>
+        <p>The biggest mindset shift for me was realizing that responsibility and self-criticism are not the same thing. 
+        Taking responsibility does not mean never making mistakes. It means staying engaged when things don't go as planned. 
+        As long as you take ownership, learn, and adapt, you are moving the organization forward. A real mistake is not making 
+        an imperfect decision—it is refusing to act or abandoning responsibility altogether.</p>
+        <p>Teal organizations make responsibility feel natural because people can show up as themselves. They are not hiding
+        behind roles or titles. Improving the organization feels personal because they are improving the environment they are 
+        part of every day. When people genuinely care about their workplace, taking responsibility no longer feels like carrying
+        a burden—it feels like creating something they believe in.</p>
+        <p><strong>Key Learning: Experiment small, scale what works. </strong></p>
+        
+        </p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-9-Assignment-Tasks-3616fc3d3bd580359ba6f2eb296f784b?source=copy_link"
     }
