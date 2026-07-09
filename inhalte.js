@@ -349,14 +349,23 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong>Metaphor: </strong>A crew doesn't become a synchronized unit by only enjoying perfect,
-        sunny days. They become a true team by continuously standing watch together, side-by-side through
-        endless, uneventful calm and grueling storms alike. The sheer amount of time spent sharing the same
-        deck creates an unspoken, unbreakable rhythm.</p>
-        <p><strong>Transfer: </strong>In virtual teams, consistent and continuous shared time is a
-        foundational driver of cohesion. Reliable bonding does not solely depend on the high quality of
-        interactions or ideal conditions, but simply on the relentless, shared presence of being there
-        together over time.</p>`,
+        <p>Welches Problem habe ich diese Woche?</p>
+        <p>A crew doesn't become a synchronized unit by only enjoying perfect, sunny days. They become 
+        a true team by continuously standing watch together, side-by-side through endless, uneventful calm 
+        and grueling storms alike; it is the sheer amount of time spent sharing the same deck that creates an 
+        unspoken, unbreakable rhythm. On a ship, you cannot choose to skip your watch just because you feel 
+        unprepared or because the weather is miserable, half the battle is won simply by showing up at the helm 
+        when your shift starts, proving to the rest of the crew that you can be relied upon to share the weight of 
+        the journey.</p>
+        <p>This directly translates to virtual teams, where consistent and continuous shared time serves as the 
+        foundational driver of cohesion. Reliable bonding does not solely depend on flawless, high-quality 
+        interactions or being perfectly prepared for every single discussion. Instead, a massive part of building 
+        trust comes from the relentless, shared presence of being there together over time. Half the battle is 
+        already won when everyone respects and prioritizes the scheduled time together, showing up consistently 
+        regardless of the circumstances. Respecting the calendar and making the meeting a priority is what truly 
+        builds an unbreakable virtual rhythm.</p>
+        <p><strong>I want future me to remeber: Shared time creates shared identity, even in virtual teams.</strong>
+        </p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-7-Assignment-Tasks-3606fc3d3bd5802e92d1e7ab71625e09?source=copy_link"
     }
@@ -371,18 +380,21 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong>Metaphor: </strong>Leading a digital team through change is like upgrading a traditional
-        sailboat with advanced, high-tech navigation instruments.</p>
-        <p>A captain cannot simply buy the new digital charts, hand them to the crew, and retreat to their
-        cabin expecting the ship to sail faster. If the captain does not bother to learn how to read the new
-        radar or program the autopilot, the crew will lose confidence in the system and default to old,
-        inefficient ways of navigating.</p>
-        <p>To steer the team forward, the captain must be the first one at the helm actively operating the
-        new technology, demonstrating its value in rough seas, and proving that they are not just giving
-        orders, but truly charting the course into the digital future.</p>
-        <p><strong>Transfer: </strong>Digital transformation is fundamentally a leadership responsibility;
-        driving organization-wide adoption requires leaders to actively master and implement new technologies
-        themselves, serving as visionary role models rather than passive observers.</p>`,
+        <p>Was ist diese Woche mein Problem?</p>
+        <p>Leading a digital team through change is very much like upgrading a traditional sailboat with advanced, 
+        high-tech navigation instruments. A captain cannot simply buy the new digital charts, hand them to the 
+        crew, and retreat to their cabin expecting the ship to sail faster. If the captain does not bother to learn
+        how to read the new radar or program the autopilot, the crew will quickly lose confidence in the system and
+        default to their old, inefficient ways of navigating. To truly steer the team forward, the captain must be 
+        the first one at the helm actively operating the new technology, demonstrating its value in rough seas, and 
+        proving that they are not just giving orders, but actively charting the course into the digital future.</p>
+        <p>This highlights that digital transformation is fundamentally a leadership responsibility, rather than a technical
+        one. Driving organization-wide adoption of new tools requires leaders to step out of the role of passive 
+        observers and actively master and implement these technologies themselves. When a leader acts as a visionary
+        role model, using the tools daily and navigating the learning curve firsthand, it builds trust and signals 
+        to the entire team that the change is both necessary and valuable.</p>
+        <p><strong>I want future me to remeber: Digital transformation starts with leaders who embrace technology and lead 
+        by example.</strong></p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-8-Assignment-Tasks-35f6fc3d3bd5807b8affe04d612c9f41?source=copy_link"
     }
@@ -399,58 +411,58 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong> Key Learning: Ownership beats inaction. </strong></p>
-        <p>During my internship, I realized that the most valuable skill isn't knowledge—it's taking responsibility.
-        And that is much harder than it sounds. Responsibility requires energy, courage, and a willingness to make 
-        decisions despite uncertainty.</p>
-        <p>I believe many people struggle to take responsibility even for their own lives. As a result, the idea of 
-        making important decisions for an organization can feel overwhelming. But organizations only become truly 
-        adaptable when people stop waiting for someone else to act.</p>
-        <p>What stood out to me about Teal organizations is that responsibility is distributed rather than concentrated.
-        Team members are trusted to make decisions after seeking advice from the people affected. The focus shifts from
-        making the perfect decision to making a thoughtful one and continuously improving it. In more traditional 
-        organizations, decisions are often judged more harshly than they are supported, making people afraid to take ownership
-        in the first place.</p>
-        <p>The biggest mindset shift for me was realizing that responsibility and self-criticism are not the same thing. 
-        Taking responsibility does not mean never making mistakes. It means staying engaged when things don't go as planned. 
-        As long as you take ownership, learn, and adapt, you are moving the organization forward. A real mistake is not making 
-        an imperfect decision—it is refusing to act or abandoning responsibility altogether.</p>
-        <p>Teal organizations make responsibility feel natural because people can show up as themselves. They are not hiding
-        behind roles or titles. Improving the organization feels personal because they are improving the environment they are 
-        part of every day. When people genuinely care about their workplace, taking responsibility no longer feels like carrying
-        a burden—it feels like creating something they believe in.</p>
-        <p><strong>Metaphor: </strong>No sailor expects to sail in a perfectly straight line. Reaching the destination depends
-        on making countless small course corrections. Taking responsibility means being willing to steer, adjust, and keep moving forward.</p>
-        <p><strong>Key Learning: Experiment small, scale what works. </strong></p>
-        <p>Many organizations introduce new systems by rolling them out to everyone at once. For employees, this often feels 
-        like a disruptive break from familiar ways of working, which naturally creates resistance. But meaningful change rarely 
-        happens overnight.</p>
-        <p>Instead of transforming an entire organization at once, new processes, tools, or ways of working should first be tested 
-        in small groups whenever possible. These experiments create a safe environment to learn what works, gather continuous feedback, 
-        and refine ideas before expanding them.</p>
-        <p>This is one of the strengths of Teal organizations. Teams operate as small, autonomous units where members can quickly 
-        experiment, adapt, and share their learnings with other teams. If something doesn't work, the impact remains limited. If it 
-        does, the solution has already been improved through real experience before being adopted more broadly.</p>
-        <p>By experimenting on a small scale first, organizations reduce risk, learn faster, and make change feel like a natural 
-        evolution rather than a disruptive transformation.</p>
-        <p><strong>Metaphor: </strong>A fleet sails farther when each boat is free to explore the best route and share what it learns.
-        Instead of one risky decision for everyone, many small experiments help the whole fleet find the safest course together.</p>
-        <p><strong>Key Learning: Look for win-win solutions, they exist</strong></p>
-        <p>One of the biggest lessons I took away from my internship is how deeply we believe that every solution requires someone to 
-        lose. We often assume that if one group benefits, another must inevitably suffer.</p>
-        <p>Yet we are looking at a way of organizing companies that has already been proven in practice. There are organizations that 
-        have been working successfully with Teal principles for years. Despite this evidence, many people still struggle to believe that
-        an organization can create better outcomes for everyone involved.</p>
-        <p>This made me question how often we reject new ideas simply because they seem too optimistic. Instead of searching for compromises
-        where everyone gives something up, we should spend more time looking for solutions where everyone gains something. These solutions 
-        exist, but they often require us to challenge long-held assumptions and be willing to do things differently.</p>
-        <p>Innovation is not only about creating new products or technologies. Sometimes it means rethinking the rules we have always accepted.
-        If an idea has already proven that it can make work more meaningful, organizations more adaptable, and people more fulfilled, then it 
-        deserves to be taken seriously. The best solutions are not always those where someone wins at another person's expense—they are the 
-        ones where everyone moves forward together.</p>
-        <p><strong>Metaphor: </strong>We often believe that a ship can only move forward because someone is carrying the burden. But the best 
-        vessels prove otherwise: when the crew is motivated, the owner succeeds, and the passengers are satisfied, everyone benefits from the 
-        same journey.</p>`,
+        <p>Welche Probleme habe ich diese Woche?</p>
+        <p>No sailor expects to sail from port to destination in a perfectly straight line; the wind shifts, the currents 
+        pull, and reaching the destination depends entirely on making countless small course corrections along the 
+        way. Taking true responsibility on a ship means being willing to stand at the helm, make those constant 
+        adjustments, and keep the vessel moving forward despite the unpredictable elements.</p>
+        <p>This journey beautifully mirrors the realization that the most valuable skill in any modern organization is not 
+        raw knowledge, but the willingness to take responsibility. Just like steering through unpredictable waters, 
+        taking ownership requires immense energy, courage, and the readiness to make decisions despite deep 
+        uncertainty. Many people struggle to take responsibility because traditional organizations often judge 
+        imperfect decisions more harshly than they support them, driving people to hide behind rigid roles or 
+        abandon ownership altogether.</p>
+        <p>However, when an organization embraces a decentralized, "Teal" mindset, responsibility is distributed rather 
+        than concentrated at the top. Team members are trusted to make thoughtful decisions after seeking advice, 
+        shifting the focus from an impossible standard of perfection to continuous adaptation. The ultimate mindset 
+        shift is recognizing that taking responsibility does not mean never making mistakes, it means staying engaged
+        at the helm when things don’t go as planned. In navigation as in leadership, the only true mistake is 
+        refusing to act or abandoning the wheel altogether; as long as you take ownership, learn, and adapt, you are 
+        successfully moving forward</p>
+        <p><strong>I want future me to remember: Taking responsibility is our biggest superpower, ownership beats 
+        inaction</strong></p>
+        
+        <p>A fleet sails much farther and safer when each boat is free to explore the best route and immediately share what
+        it learns with the rest. Instead of a single, highly risky decision forced upon every vessel simultaneously,
+        a series of small, calculated experiments allows the whole fleet to discover the safest course together, 
+        keeping the impact of a misstep localized and manageable.</p>
+        <p>This approach offers a powerful alternative to how many traditional organizations handle change, where new 
+        systems are abruptly rolled out to everyone at once, creating disruptive breaks and natural resistance. 
+        Instead of attempting a massive transformation overnight, new processes, tools, or ways of working should 
+        first be tested in small groups. These experiments create a safe harbor to gather continuous feedback and 
+        refine ideas before expanding them. This is precisely where decentralized, "Teal" organizations excel: teams
+        operate as autonomous units that can quickly experiment, adapt, and share their real-world learnings. By 
+        testing on a small scale first, organizations dramatically reduce risk, learn faster, and allow change to 
+        feel like a natural evolution rather than a disruptive shock</p>
+        <p><strong>I want future me to remeber: When trying risky things, the whole organization doesn’t have to go all in. Small 
+        groups can test the ideas and give advice to other groups - experiment small, scale what works</strong></p>
+        
+        <p>We often carry the limiting belief that a ship can only move forward if someone is bearing an exhausting burden on 
+        their shoulders. However, the most successful vessels prove otherwise: when the crew is motivated, the owner 
+        succeeds, and the passengers are genuinely satisfied, everyone benefits from the exact same journey, lifted 
+        by the same wind.</p>
+        <p>This mirrors a profound realization about the corporate world: we are deeply conditioned to believe that every solution 
+        requires a loser, assuming that if one group benefits, another must inevitably suffer. Yet, decentralized 
+        "Teal" organizations have proven in practice for years that this zero-sum mindset is false. Despite the 
+        evidence, many people still struggle to believe that a company can create better outcomes for everyone 
+        simultaneously, often rejecting new ideas simply because they seem too optimistic. Instead of settling for 
+        compromises where everyone gives something up, leadership should focus on solutions where everyone gains. 
+        True innovation means challenging the rules we have always accepted and realizing that the best solutions 
+        are not those where someone wins at another's expense, they are the ones where the entire ecosystem moves 
+        forward together.</p>
+        <p><strong>I want future me to remeber: As a society we have grown so sceptical of things working 
+        when nobody has to suffer and everybody can benefit, i want to find more win-win solutions in my everyday 
+        life because they exist - look for win-win solutions, they exist</strong></p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-9-Assignment-Tasks-3616fc3d3bd580359ba6f2eb296f784b?source=copy_link"
     }
