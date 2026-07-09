@@ -149,27 +149,24 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong>Metaphor: </strong>From an outside perspective, the skipper (leader) and the crew (team) are
-        often evaluated separately. The pressure from the outside world—whether the boat crosses the finish
-        line first—usually rests solely on the leader's shoulders. In reality, however, the truly difficult
-        storms can only be weathered by a well-functioning team. Instead of passing that external pressure
-        down unfiltered, the leader must understand the crew, forge them into a united front, and set a clear
-        course. When a leader understands and leverages this duality, the crew develops a collective intelligence
-        and strength, enabling crew members to support the leader by actively taking responsibility during
-        unforeseen dangers (storms), allowing the team to emerge from crises faster and stronger.</p>
-        <p><strong>Transfer: </strong>From an outside perspective, the leader and the team are often
-        treated as separate entities. While external pressure—such as hitting specific KPIs—rests entirely
-        on the leader's shoulders, truly complex challenges can only be mastered by a well-functioning team.
-        Instead of merely passing that external pressure down, a leader must understand, unite, and realign
-        the team. When a leader understands and leverages this duality, the team develops a collective
-        intelligence and strength that enables its members to actively take ownership and protect the leader
-        from risks.</p>
-        <p>Crisis leadership is a two-way promise of protection. While the leader sets the strategic
-        direction and safeguards the collective against strategic errors, the workforce reciprocates by
-        proactively shielding the leadership from the unpredictable. This dynamic only emerges when employees
-        experience that their values and psychological safety are actively defended ("Identity Championing").
-        Identity-driven leadership thus transforms a passive group into a highly adaptive, loyal early-warning
-        system.</p>`,
+        <p>Welches Problem habe ich diese woche?</p>
+        <p>From an outside perspective, the skipper and the crew are often evaluated as separate entities,
+        with the immense pressure of crossing the finish line resting solely on the captain’s shoulders. 
+        But a true skipper does not just stand passively at the helm. Even when the waves tower high, the
+        leader's primary duty is to read the elements, set a definitive, unwavering course, and forge a 
+        fragmented group of sailors into a single, united front. Most importantly, the skipper acts as a 
+        shield, absorbing the brutal impact of the external elements and protecting the crew’s safety so 
+        they can focus on their tasks without fear. Because the crew experiences this fierce protection 
+        and clear direction from their captain, a profound sense of loyalty is born. They don't just 
+        follow orders; they actively seek to return the favor.</p>
+        <p>This directly transfers to corporate leadership. When a leader absorbs external pressure, like 
+        harsh KPI demands, and actively defends the team's psychological safety, crisis leadership becomes
+        a two-way promise of protection. By safeguarding the workforce from strategic errors and external 
+        chaos, the leader inspires the team to reciprocate. The crew transforms into a highly adaptive, 
+        loyal early-warning system. Bound by mutual trust, team members proactively step up during 
+        unforeseen crises, taking ownership to shield their leader from risks and ensuring the organization
+        weathers any storm together.</p>
+        <p><strong>KL</strong></p>`,
       media: {
         images: [
           { src: "images/_DSC9150.jpg", caption: "Probe" },
@@ -191,16 +188,24 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong>Key Learning: </strong>Underemployment and underutilization can be significant challenges
-        in certain industries and roles. Humans are not machines; they thrive on engagement rather than mere
-        repetition. When a deeper sense of purpose is temporarily missing from a task, introducing elements 
-        of fun and playfulness can drastically improve motivation, morale, and overall well-being.</p>
-        <p><strong>Metaphor: </strong>In sailing, the greatest threat isn't always a storm; it is the "doldrums", 
-        the complete absence of wind that leaves a ship stranded and stagnant. Similarly, in many industries, being
-        underchallenged kills momentum because humans are not automated engines built to run on a fixed track. When 
-        the external "wind" of a deep, systemic purpose is missing, a team must rely on their own crew morale. 
-        Injecting energy, creativity, and a playful attitude acts like catching a sudden breeze, transforming a 
-        stagnant drift into a motivated journey</p>`,
+        <p>Welches problem habe ich diese woche?</p>
+        <p>In the open ocean, the greatest threat to a voyage isn't always a roaring storm; often, it is the dreaded
+        "doldrums", the eerie, complete absence of wind that leaves a vessel stranded and helplessly drifting. A 
+        ship cannot move on a fixed track like an automated engine; it requires an external force to propel it 
+        forward. When the horizon remains dead calm and the sails hang lifelessly, frustration settles in, and the 
+        crew's energy begins to evaporate. In these moments of absolute stagnation, a skilled skipper knows that 
+        survival depends entirely on crew morale. By deliberately injecting energy, creativity, and a spirited, 
+        playful attitude into the daily routine on deck, the leader shifts the atmosphere. This spark of internal 
+        morale acts like catching a sudden, unexpected breeze, instantly snapping the sails back to life and 
+        transforming a stagnant drift into a motivated, purposeful journey.</p>
+        <p>This directly transfers to the workplace, where underutilization and a temporary lack of systemic purpose 
+        can completely kill a team's momentum. Because humans are not machines built for mindless repetition, being
+        underchallenged is just as dangerous as being overworked. When the external "wind" of a deeper meaning is 
+        missing from a task, a leader must step in to protect the team's well-being. By intentionally introducing 
+        elements of fun, gamification, and playfulness, the leader boosts morale and revitalizes engagement, turning
+        a period of professional stagnation into a highly motivated, tight-knit drive forward.</p>
+        <p><strong>Humans aren#'t machines, they require active engagement rather than just repetetive tasks</strong>
+        </p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-2-Assignment-Tasks-Fish-3796fc3d3bd58014b709ce91ea0af425?source=copy_link"
     }
@@ -215,19 +220,24 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong>Key Learning: </strong>An inclusive leader decodes diverse communication styles rather 
-        than penalizing them by judging them by their own lense. By establishing a shared course instead 
-        of forcing conformity, leaders unlock the collective power of both gender and cultural diversity</p>
-        <p><strong>Metaphor: </strong>A diverse team is like a sailboat crew navigating open waters. The team
-        members are the sails, but their different cultural and gender backgrounds mean they are shaped
-       differently and catch the wind at different angles.</p> 
-       <p>An inexperienced captain might expect every sail to be trimmed exactly the same way. When one sail
-       doesn't catch the wind as expected, the captain might blame the fabric, calling it weak or ineffective.</p>
-       <p>An inclusive leader, however, acts as a master sailor. They understand that the sails aren't flawed; 
-       they just react differently to the wind. Instead of forcing every sail into the same rigid position, or 
-       penalizing the ones that don't fit the mold, the leader adjusts the rigging, teaches the crew how to read 
-       the unique tension of each sail, and establishes a shared course. They don't change the wind, nor do they 
-       replace the sails; they optimize how the ship uses the collective power of all sails to move forward together</p>`,
+        <p>Welches Problem habe ich diese woche?</p>
+        <p>A diverse team is like a sailboat crew navigating open waters, where the individual team members
+        act as the vessel's sails. Because of their varied backgrounds, these sails are cut from different 
+        fabrics, shaped in unique geometries, and designed to catch the wind at entirely different angles. 
+        An inexperienced captain, expecting uniformity, might try to trim every single sail exactly the 
+        same way. When a specific sail fails to draw power under those rigid settings, the captain quickly
+        blames the material, misjudging it as weak, flawed, or ineffective. A master sailor, however, knows
+        that the sail isn't broken, it simply reacts differently to the wind. Instead of forcing compliance
+        or penalizing a sail that doesn't fit a standard mold, the expert skipper patiently adjusts the 
+        rigging, learns the unique tension of each sheet, and aligns them all toward a shared destination.
+        They don't try to change the wind or replace the crew; they optimize how the ship harnesses the 
+        distinct, collective power of every sail to surge forward.</p>
+        <p>This directly transfers to inclusive leadership, where a manager must decode diverse communication
+        styles rather than penalizing employees through the narrow lens of their own cultural or gender expectations.
+        Forcing conformity only suffocates a team's potential. By establishing a clear, shared course and adjusting 
+        the organizational "rigging" to accommodate different perspectives, an inclusive leader unlocks the true 
+        collective power of diversity, transforming individual differences into a powerful, unified drive.</p>
+        <p><strong>Decode diversity in language to unleash potential</strong></p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-3-Assignment-Tasks-3796fc3d3bd5800abcbfdf9613ae25a0?source=copy_link"
     }
