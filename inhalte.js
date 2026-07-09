@@ -166,7 +166,8 @@ const weeksData = [
         loyal early-warning system. Bound by mutual trust, team members proactively step up during 
         unforeseen crises, taking ownership to shield their leader from risks and ensuring the organization
         weathers any storm together.</p>
-        <p><strong>KL</strong></p>`,
+        <p><strong>I want future me to remember: The strongest leaders don't carry pressure alone,
+        they build teams that think, adapt, and protect together.</strong></p>`,
       media: {
         images: [
           { src: "images/_DSC9150.jpg", caption: "Probe" },
@@ -204,8 +205,8 @@ const weeksData = [
         missing from a task, a leader must step in to protect the team's well-being. By intentionally introducing 
         elements of fun, gamification, and playfulness, the leader boosts morale and revitalizes engagement, turning
         a period of professional stagnation into a highly motivated, tight-knit drive forward.</p>
-        <p><strong>Humans aren#'t machines, they require active engagement rather than just repetetive tasks</strong>
-        </p>`,
+        <p><strong>I want future me to remeber: Humans aren't machines, they require active engagement rather 
+        than just repetetive tasks</strong></p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-2-Assignment-Tasks-Fish-3796fc3d3bd58014b709ce91ea0af425?source=copy_link"
     }
@@ -237,7 +238,7 @@ const weeksData = [
         Forcing conformity only suffocates a team's potential. By establishing a clear, shared course and adjusting 
         the organizational "rigging" to accommodate different perspectives, an inclusive leader unlocks the true 
         collective power of diversity, transforming individual differences into a powerful, unified drive.</p>
-        <p><strong>Decode diversity in language to unleash potential</strong></p>`,
+        <p><strong>I want future me to remeber: Decode diversity in language to unleash potential</strong></p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-3-Assignment-Tasks-3796fc3d3bd5800abcbfdf9613ae25a0?source=copy_link"
     }
@@ -270,6 +271,7 @@ const weeksData = [
         permanently silence the skeptics.</p>
         <p><strong>I want future me to remeber: In leadership, actions often build trust more powerfully than 
         words.</p>
+        
         <p>Imagine two captains standing on the docks of a bustling harbor, each looking to recruit a crew for a
         grueling voyage across open waters. No seasoned sailor would ever entrust their life to a captain whose 
         name they have never heard, or whose ability to navigate a treacherous storm has never been witnessed. 
