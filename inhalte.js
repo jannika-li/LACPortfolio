@@ -479,56 +479,44 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong>Key Learning 1: </strong>Technology adoption follows leadership behavior, not just
-        leadership communication.</p>
-        <p><strong>Metaphor: </strong>When a ship receives new navigation instruments, the captain doesn't
-        hand the manual to the crew and walk away. They learn every function, test every setting, and
-        understand its strengths before relying on it at sea. The crew watches every move. Their willingness
-        to trust the new technology depends less on the captain's words than on the captain's behavior.</p>
-        <p><strong>Transfer: </strong>One key learning I gained is that digital transformation starts with
-        leadership behavior. Leaders cannot expect employees to adopt new technologies if they remain passive
-        observers themselves. By taking the time to experiment with and understand new systems, leaders build
-        the credibility needed to inspire others and demonstrate the practical value behind the change. During
-        my internship, I observed that introducing new technologies alone was not enough: when leaders
-        communicated the importance of new tools but did not actively use them, employees struggled to
-        understand their benefits and showed limited motivation to adopt them. This experience reinforced my
-        belief that leaders must not only communicate change—they must embody it.</p>
-        <p><strong>Key Learning 2: </strong>Competitive advantage comes from mastering AI, not fearing it.</p>
-        <p><strong>Metaphor: </strong>Imagine two captains preparing for the same voyage. One refuses to use
-        modern navigation instruments because they fear becoming dependent on them. The other blindly follows
-        every recommendation the instruments provide without questioning them. Neither captain is likely to
-        reach the destination as safely or efficiently as possible. The best captain understands that
-        technology is neither a replacement for seamanship nor an enemy to be feared. Navigation systems can
-        calculate routes, detect weather patterns, and identify hidden obstacles far faster than any human.
-        But they cannot replace experience, judgment, or the responsibility of deciding when to trust the
-        instruments and when to rely on instinct. The captain remains in command—not because they reject
-        technology, but because they know how to use it wisely.</p>
-        <p><strong>Transfer: </strong>Artificial intelligence is not replacing human expertise, it is
-        reshaping it. The greatest competitive advantage will not come from AI alone, but from people who
-        understand how to collaborate with it effectively. While AI excels at speed, automation, and
-        processing vast amounts of information, it still relies on human judgment, creativity, and critical
-        thinking to produce truly valuable outcomes. Rather than fearing AI, leaders and professionals should
-        actively experiment with it, understand its strengths and limitations, and learn when and how to
-        apply it. The future will belong to those who can bridge human intelligence with artificial
-        intelligence, combining efficiency with insight to achieve better decisions and superior results.</p>
-        <p><strong>Key Learning 3: </strong>AI generates possibilities. Humans define excellence.</p>
-        <p><strong>Metaphor: </strong>The wind is one of the most powerful forces at sea, yet it has no
-        intention of its own. It can carry a ship swiftly toward its destination or push it dangerously off
-        course. Its strength alone is never enough. What determines the outcome is the captain's ability to
-        read the conditions, adjust the sails, and channel that raw force with precision.</p>
-        <p>The more experienced the captain, the more purposefully they harness the wind. They know when to
-        trim the sails, when to change course, and when not to chase every gust that promises speed but leads
-        away from the destination. The wind provides momentum, but it never provides direction.</p>
-        <p><strong>Transfer: </strong>Artificial intelligence is a powerful tool for accelerating creativity,
-        but it is not a substitute for human imagination, critical thinking, or creative direction. AI can
-        generate ideas, recognize patterns, and connect existing knowledge remarkably fast, making it an
-        excellent partner for brainstorming and exploration. However, the quality of its output largely
-        depends on the clarity and specificity of the guidance it receives. Vague prompts often produce
-        generic results, whereas precise goals and continuous refinement lead to far more valuable outcomes.
-        This taught me that achieving excellence with AI requires more than technical skills—it requires
-        leadership. Just as teams perform best with a clear vision, AI delivers its greatest value when guided
-        by someone who knows where they want to go, critically evaluates every result, and refuses to settle
-        for mediocrity.</p>`,
+        <p>Was für Probleme hatte ich diese Woche?</p>
+        <p>Imagine two captains preparing for the same voyage. One refuses to use modern navigation instruments 
+        because they fear becoming dependent on them. The other blindly follows every recommendation the 
+        instruments provide without questioning them. Neither captain is likely to reach the destination as 
+        safely or efficiently as possible. The best captain understands that technology is neither a replacement
+        for seamanship nor an enemy to be feared. Navigation systems can calculate routes, detect weather patterns,
+        and identify hidden obstacles far faster than any human, but they cannot replace experience, judgment, or
+        the responsibility of deciding when to trust the instruments and when to rely on instinct. The captain 
+        remains in command, not because they reject technology, but because they know how to use it wisely.</p>
+        <p>This dynamic perfectly mirrors our current relationship with artificial intelligence: AI is not replacing
+        human expertise, it is reshaping it. The greatest competitive advantage will not come from technology alone,
+        but from people who understand how to collaborate with it effectively. While AI excels at speed, automation,
+        and processing vast amounts of information, it still relies entirely on human judgment, creativity, and 
+        critical thinking to produce truly valuable outcomes. Blind reliance leads to errors, while total rejection 
+        leads to obsolescence. Rather than fearing AI, leaders and professionals must actively experiment with it, 
+        understand its strengths and limitations, and learn when and how to apply it. The future belongs to those who
+        can bridge human intelligence with artificial intelligence, maintaining total command of the ship while using
+        technology wisely to achieve superior results.</p>
+        <p><strong>I want future me to remeber: Competitive advantage comes from mastering AI, not fearing 
+        it.</strong></p>
+        
+        <p>The wind is one of the most powerful forces at sea, yet it has no intention of its own. It can carry 
+        a ship swiftly toward its destination or push it dangerously off course; its strength alone is never enough.
+        What determines the outcome is the captain's ability to read the conditions, adjust the sails, and channel 
+        that raw force with precision. The more experienced the captain, the more purposefully they harness the wind,
+        knowing when to trim the sails and when not to chase every fleeting gust that promises speed but leads away 
+        from the destination. The wind provides momentum, but it never provides direction.</p>
+        <p>Similarly, artificial intelligence is an incredibly powerful tool for accelerating creativity, but 
+        it is not a substitute for human imagination, critical thinking, or creative direction. AI can generate 
+        ideas, recognize patterns, and connect existing knowledge remarkably fast, making it an excellent partner
+        for brainstorming and exploration. However, just like the wind, it provides momentum rather than direction.
+        The quality of its output depends entirely on the clarity and specificity of the guidance it receives, 
+        vague prompts produce generic results, while precise goals and continuous refinement lead to valuable 
+        outcomes. Achieving excellence with AI ultimately requires leadership rather than just technical skills;
+        it delivers its greatest value when guided by someone who knows where they want to go, critically evaluates
+        every result, and refuses to settle for mediocrity.</p>
+        <p><strong>I want future me to remember: AI generates possibilities. Humans define 
+        excellence</strong></p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-10-Assignment-Tasks-3656fc3d3bd580508f4fdc959579efc7?source=copy_link"
     }
@@ -543,21 +531,22 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong>Metaphor: </strong>Mastering the art of sailing is not about memorizing every rule in a
-        handbook. A captain may study countless examples of storms, hidden reefs, changing tides, and
-        navigational errors, yet the sea will always present something unfamiliar. Every voyage reveals
-        another lesson that could never have been learned from the shore. The finest captains are not those
-        who never make mistakes, but those who never stop learning from them.</p>
-        <p><strong>Transfer: </strong>Throughout this week, we examined an extensive list of common
-        leadership mistakes. Seeing so many potential pitfalls at once reinforced an important realization: no
-        leader can avoid every mistake. Leadership is far too dynamic and complex for perfection to be a
-        realistic goal. Instead, effective leadership is defined by the willingness to recognize shortcomings,
-        seek feedback, and continuously improve. Teams evolve, organizational needs change, and new
-        challenges emerge every day, requiring leaders to adapt alongside them. Rather than striving to be
-        flawless, leaders should strive to become better with every experience. Humility, self-reflection, and
-        openness to new perspectives are therefore not optional leadership qualities—they are essential for
-        long-term success. Leadership is not about reaching a point where there is nothing left to learn; it
-        is about committing to a lifelong process of growth.</p>`,
+        <p>Was hatte ich diese Woche für ein Problem?</p>
+        <p>Mastering the art of sailing is not about memorizing every single rule in a handbook. A captain
+        may study countless theoretical examples of sudden storms, hidden reefs, shifting tides, and navigational 
+        errors, yet the sea will always find a way to present something completely unfamiliar. Every single voyage
+        reveals another lesson that could never have been learned while standing safely on the shore. Ultimately, 
+        the finest captains are not those who never make mistakes, but those who never stop learning from them.</p>
+        <p>This realization beautifully mirrors the reality of leadership development. Examining an extensive list 
+        of common leadership pitfalls reinforces a crucial truth: no leader can avoid every mistake, as leadership 
+        is far too dynamic and complex for perfection to be a realistic goal. Instead, effective leadership is 
+        defined by the humility to recognize shortcomings, seek feedback, and continuously improve. Just as the sea 
+        constantly shifts, teams evolve, organizational needs change, and new challenges emerge every day, requiring
+        leaders to adapt alongside them. Rather than striving to be flawless, leaders should focus on becoming better
+        with every experience. Self-reflection and an openness to new perspectives are not optional leadership 
+        qualities, they are essential for long-term success. Leadership is not about reaching a final destination 
+        where there is nothing left to learn; it is about committing to a lifelong process of growth at the helm.</p>
+        <p><strong>I want future me to remeber: The strongest leaders never stop evolving.</strong></p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-11-Assignment-Tasks-37a6fc3d3bd580eda4aeef30b8fa4dde?source=copy_link"
     }
@@ -572,19 +561,25 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong>Metaphor: </strong>At the beginning of a voyage, a crew may move like individual sailors
-        rather than one unit. The ropes are pulled at different moments, decisions are made with different
-        instincts, and everyone follows their own rhythm.</p>
-        <p>But after enough days at sea, something remarkable happens. The crew begins to anticipate each
-        other's movements. One sailor adjusts the sail before another gives the signal. One notices a change
-        in the wind before it becomes a problem. Without becoming identical, they develop a shared rhythm.</p>
-        <p>That is when a group of sailors becomes a true crew.</p>
-        <p><strong>Transfer: </strong>Looking back on this semester, I recognize the same pattern in every
-        team I've been part of. Chemistry doesn't appear on day one just because people are placed in the
-        same room. It grows out of showing up consistently, working through friction together, and slowly
-        learning to read one another without needing to spell everything out. Becoming a leader means staying
-        committed to that process — trusting that the rhythm will come, even when the first weeks feel
-        clumsy and out of sync.</p>`,
+        <p>Was war diese Woche mein Problem?</p>
+        <p>At the beginning of a voyage, a crew often moves like individual sailors rather than a single unit; 
+        ropes are pulled at different moments, decisions are made with conflicting instincts, and everyone follows 
+        their own separate rhythm. But after enough days spent navigating together at sea, something remarkable 
+        happens. The crew begins to anticipate each other’s movements, one sailor adjusts a sail before a signal
+        is given, while another notices a shift in the wind before it even becomes a problem. Without becoming 
+        identical, they develop a shared, unspoken rhythm, and that is the exact moment a mere group of sailors 
+        becomes a true crew.</p>
+        <p>This beautifully illustrates that a successful team does not need to be built on immediate chemistry 
+        or personal similarities. Strong collaboration can develop profoundly between people who might not naturally 
+        choose each other as friends. A great team does not require its members to share the same personalities or
+        spend their free time together; what truly matters is the willingness to contribute, show up reliably, 
+        engage in honest dialogue, and support each other’s development. Over time, as each person brings their 
+        unique strengths and perspectives to the deck, the group learns to mesh. Great teams are not created because
+        the right people are naturally compatible from the very beginning; they are forged because people actively
+        choose to invest in each other, recognize one another's strengths, and work together toward a shared
+        goal.</p>
+        <p><strong>I want future me to remeber: Great teams are not built on instant chemistry, but on commitment, 
+        trust, and shared growth.</strong></p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-12-Assignment-Tasks-3776fc3d3bd5803fa123cc1dff556bb0?source=copy_link"
     }
