@@ -253,35 +253,39 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong>Key Learning 1: </strong>In leadership, actions often build trust more powerfully than
+        <p>Welches Probleme habe ich diese Woche?</p>
+        <p>When the wind shifts unexpectedly on the open ocean, an experienced captain doesn't waste precious
+        time arguing with the weather or shouting at the storm. You cannot negotiate with a gale-force headwind; 
+        you master it by adjusting your sails and keeping a firm hand on the helm. In turbulent seas, a captain's 
+        true authority isn't proven by shouting over the roar of the waves, but by the steady, unyielding course 
+        of the vessel itself. As the ship cuts cleanly through punishing countercurrents, the flawless execution 
+        of every maneuver speaks for itself, silently proving the skipper’s absolute capability to the crew and 
+        anyone watching from the shore.</p>
+        <p>This directly transfers to modern leadership, where female leaders frequently face shifting winds of 
+        systemic bias. In these unpredictable waters, trying to verbally debate or address every single disparity 
+        through dialogue is rarely the most effective path. True communication transcends the spoken word. Instead
+        of fighting the wind, a leader builds lasting, gender-blind trust through strategic visibility and 
+        undeniable competence. By letting tangible results and decisive actions "speak a thousand words," a leader
+        effortlessly demonstrates captaincy, commands authority, and lets the undeniable success of the journey 
+        permanently silence the skeptics.</p>
+        <p><strong>I want future me to remeber: In leadership, actions often build trust more powerfully than 
         words.</p>
-        <p><strong>Metaphor: </strong>When the wind shifts unexpectedly, an experienced captain doesn't
-        waste time arguing with the weather. They adjust the sails, stay focused on the destination, and let
-        the steady course of the vessel prove their capability. Leadership is no different: lasting
-        credibility is often built not by responding to every bias, but by consistently demonstrating
-        competence through action.</p>
-        <p><strong>Transfer: </strong>In leadership, communication transcends the spoken word. When female
-        leaders face systemic biases, addressing every disparity through dialogue isn't always the most
-        effective path. Often, strategic visibility and letting one's tangible results and actions "speak a
-        thousand words" is the most powerful way to demonstrate competence, command authority, and build
-        gender-blind trust.</p>
-        <p>In the unpredictable waters of leadership, female leaders often face shifting winds and systemic
-        countercurrents. You don't master a storm by arguing with the wind; you master it by adjusting your
-        sails. Instead of trying to verbally negotiate every bias, letting the vessel's steady course and
-        flawless maneuvers speak for themselves is the most powerful way to demonstrate captaincy and command
-        gender-blind trust.</p>
-        <p><strong>Key Learning 2: </strong>Leadership credibility is built through visible competence.</p>
-        <p><strong>Metaphor: </strong>Imagine two captains standing in the harbor, each searching for a crew.
-        Few sailors would entrust their lives to a captain they've never heard of or never seen navigate
-        rough seas. Instead, they ask around. They rely on reputation, past observations, and visible proof
-        of competence—because the risk of choosing the wrong captain is simply too high. A captain whose
-        skills are unknown is often assumed to be inexperienced, or worse, reckless. That's why great
-        captains don't just possess exceptional seamanship; they make sure others have the opportunity to
-        witness it before the storm ever arrives.</p>
-        <p><strong>Transfer: </strong>Connected to the first key learning: while women often display humility,
-        they frequently gain true credibility only when their competence is demonstrated decisively.
-        Conversely, men often grant trust based on visible performance. As a leader, I must ensure that I can
-        effectively demonstrate my competence at any given moment.</p>`,
+        <p>Imagine two captains standing on the docks of a bustling harbor, each looking to recruit a crew for a
+        grueling voyage across open waters. No seasoned sailor would ever entrust their life to a captain whose 
+        name they have never heard, or whose ability to navigate a treacherous storm has never been witnessed. 
+        Because the stakes on the ocean are life and death, sailors rely heavily on a captain's reputation, past 
+        observations, and visible proof of seamanship. A captain whose skills remain entirely hidden in the shadows 
+        is automatically assumed to be inexperienced, or worse, reckless. Exceptional seamanship alone is not enough
+        to command a ship; great captains understand that they must make their competence visible to the maritime
+        community long before the vessel ever leaves the safety of the harbor.</p>
+        <p>This directly transfers to corporate leadership dynamics. While women often lean toward humility, expecting 
+        their hard work to speak for itself, they frequently only gain true credibility among peers once their 
+        competence is decisively demonstrated. Conversely, many professional environments (and often male peers) 
+        grant trust primarily based on highly visible performance. As a leader, relying on silent competence is a 
+        risk. True captaincy requires stepping out of the shadows and ensuring that your strategic capabilities and 
+        results are clearly visible and ready to be demonstrated at any given moment</p>
+        <p><strong>I want future me to remeber: Leadership credibility is built through visible competence.</strong>
+</p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-4-Assignment-Tasks-37a6fc3d3bd58050b85cfb29a15cbda4?source=copy_link"
     }
@@ -296,17 +300,24 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p><strong>Metaphor: </strong>A diverse team is like a high-performance sailboat hull constructed
-        from completely different materials—some parts are flexible carbon fiber, others are rigid titanium,
-        and some are lightweight composite.</p>
-        <p>If a boatbuilder tries to treat them all the same, the hull will crack under pressure because they
-        don't recognize how each material handles stress differently. Instead, the builder must first
-        understand and respect the unique properties of each piece. Only then can they apply the binding
-        resin—the common basis—that holds these distinct materials together, creating a unified vessel that
-        is far stronger and faster than a hull made of just one material alone.</p>
-        <p><strong>Transfer: </strong>Unlocking the potential of a diverse team requires a deliberate balance
-        of differentiation and integration: leaders must first actively surface and value individual
-        differences, and then establish a shared operational framework that enables cohesive collaboration.</p>`,
+        <p>Was für ein Problem habe ich diese Woche?</p>
+        <p>A truly elite racing yacht is not built from a single, uniform substance. Instead, it is a high-performance
+        hull constructed from completely different materials, some sections are woven from ultra-flexible carbon 
+        fiber to absorb shock, others are forged from rigid titanium to bear immense loads, and some utilize 
+        lightweight composites to maximize speed. If a boatbuilder blindly treats all these materials the same way, 
+        forcing them into identical molds without recognizing how differently they handle physical stress, the hull 
+        will inevitably crack and fracture under pressure. A master builder must first deeply understand and respect
+        the unique material properties of each distinct piece. Only after doing so can they apply the binding resin
+        (the common, unbreakable basis) that fuses these diverse components into a single, unified vessel. The 
+        resulting hull is fundamentally stronger, faster, and more resilient than anything made of just one material
+        alone.</p>
+        <p>This directly transfers to high-performance teamwork. Unlocking the true potential of a diverse team requires
+        a deliberate, two-step balance of differentiation and integration. A leader cannot simply force conformity 
+        or expect everyone to handle pressure identically. First, they must actively surface, understand, and value 
+        individual differences. Only then can they establish a shared operational framework, the organizational 
+        "resin", that binds those unique strengths together, enabling cohesive collaboration and transforming diverse
+        perspectives into an unstoppable collective drive.</p>
+        <p><strong>I want future me to remember: Diversity creates value when leaders embrace differences and build shared ways of working</strong></p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-5-Assignment-Tasks-37c6fc3d3bd5807d9a89c5633a947f28?source=copy_link"
     }
