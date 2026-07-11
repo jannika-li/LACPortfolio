@@ -68,13 +68,13 @@ const SEITENTEXTE = {
 
   heroKicker:      "Learning Journey 2026 · Hamburg",
   heroTitel:       "Setting Course: Navigating Cultural Waters",
-  heroText: `Welcome to my learning journal. This is Jannika's first real leadership role — and, if she's honest,
+  heroText: `Welcome to my learning journal. This is Jannika's first real leadership role and, if she's honest,
     a lot is going wrong. Her team doesn't quite listen to her yet, decisions don't land the way she intends, and the
     confidence she expected to feel simply hasn't arrived. But she isn't starting from zero: years on the water as a
     sailor gave her instincts about crews, storms, and steady hands at the helm that most first-time leaders don't have.
     This logbook documents her attempt to translate that
-    <span class="text-ink font-medium">sailing knowledge</span> into leadership — week by week, mistake by mistake —
-    while gathering advice and perspectives from the people she meets along the way.`,
+    <span class="text-ink font-medium">sailing knowledge</span> into leadership. Week by week, mistake by mistake, while gathering 
+    advice and perspectives from the people she meets along the way.`,
 
   legendeBenotet:      "documented and included in portfolio selection for final grading",
   legendeDokumentiert: "documented, but not in portfolio selection",
