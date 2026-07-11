@@ -442,7 +442,7 @@ const weeksData = [
     tag: "Conflict is inevitable, how we understand and navigate it defines stronger organizations.",
     icon: "ti-sailboat",
     keyLearnings: [
-      "✏️ Key Learning hier eintragen, sobald du die Metapher ausgearbeitet hast"
+      "Vulnerability creates value. Sharing what I truly want and need may feel uncomfortable, but it enables better outcomes, stronger relationships, and mutual benefit, even in professional settings."
     ],
     detail: {
       reflection: `
