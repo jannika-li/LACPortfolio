@@ -446,9 +446,12 @@ const weeksData = [
     ],
     detail: {
       reflection: `
-        <p>✏️ Metapher und Reflexionstext zu Woche 6 folgen noch — trage sie hier ein, sobald du sie
-        ausgearbeitet hast. Du kannst mehrere &lt;p&gt;-Absätze verwenden und einzelne Wörter mit
-        &lt;strong&gt;...&lt;/strong&gt; fett setzen.</p>`,
+        <p>At the helm of a ship navigating dense fog and unfamiliar waters, hoisting the sails completely always feels like an immense risk. To expose the canvas means becoming vulnerable to unpredictable gusts and the maneuvers of nearby, unknown vessels that might cross the course or exploit the wind. Yet, keeping the sails tightly furled out of fear only ensures stagnation, leaving the entire fleet drifting aimlessly in the same choppy waters. The true breakthrough happens the moment the wind is caught: by clearly setting the sails, a vessel does not just propel itself forward. It instantly clears the horizon for others, allowing nearby captains to align their course, share the momentum, 
+        and glide forward smoothly without friction or collision.</p>
+        <p>In the professional landscape, this is the essence of vulnerable leadership. For a leader, opening up about core expectations, visions, and needs can feel dangerously exposing, especially in a corporate environment filled with unfamiliar stakeholders. However, choosing transparent communication is the equivalent of setting those sails. It transforms an atmosphere of guarded isolation into one of collective progress. When a leader invests the time to map out open coordinates, it eliminates internal friction and silent suffering across the team. Far from causing damage, this upfront vulnerability provides immediate clarity, proving that authentic disclosure is not a liability, 
+        but the ultimate catalyst for mutual trust and shared success</p>
+        <p><strong>I want future me to remember: Vulnerability creates value. Sharing what I truly want and need may feel uncomfortable, but it enables better outcomes, stronger relationships, and mutual benefit, even in 
+        professional settings.</strong></p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-6-Assignment-Tasks-37d6fc3d3bd58034b4cafa61b8303734?source=copy_link"
     }
