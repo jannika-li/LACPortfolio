@@ -638,7 +638,6 @@ const weeksData = [
     tag: "Navigating the future of work through AI, adaptation, and human-centered leadership.",
     icon: "ti-sailboat",
     keyLearnings: [
-      "Technology adoption follows leadership behavior, not just leadership communication",
       "Competitive advantage comes from mastering AI, not fearing it.",
       "AI generates possibilities. Humans define excellence"
     ],
