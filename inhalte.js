@@ -154,36 +154,23 @@ const weeksData = [
         <p>The strongest leaders don't carry pressure alone, they build teams that think, adapt, and protect together.</p>
 
         <p><strong>Jannika's Problem of the Week</strong></p>
-        <p>This week, future Jannika found herself in a high stakes meeting where her own manager heavily
-        criticized her department's recent performance metrics. Feeling defensive, stressed, and visibly
-        frustrated, she walked back to her desk only to notice that one of her team members had made a
-        minor, careless typo in a client facing report. Under the immense weight of the executive pressure
-        she was carrying, she snapped and yelled at her employee. Afterward, she deeply disliked her own
-        behavior. Sitting at her desk, she took a deep breath and tried to remind herself of a similar
-        situation she could learn from her sailing experience.</p>
+        <p>This week, Jannika faced a high-stakes meeting where her manager heavily criticized her department's performance. Stressed and defensive, she returned to her desk only to notice a minor typo made by a team member in a client-facing report. Under immense executive pressure, she snapped and yelled at the employee. Deeply regretting her reaction, she took a deep breath and tried to draw lessons from a similar 
+        high-pressure situation she had once navigated during her sailing experience</p>
 
         <p><strong>Getting help from her sailing experience</strong></p>
-        <p>She remembered being out on the open water during a sudden, violent storm. When huge waves slam
-        against the hull and the wind is howling, a great skipper doesn't yell at the crew or pass the panic
-        down the deck. If the captain panics, the crew freezes, mistakes multiply, and the ship sinks.
-        Instead, the skipper absorbs the terror of the storm, stands steady at the helm, and projects
-        absolute calm. By safeguarding the crew's psychological safety amidst the chaos, the crew transforms
-        into a highly adaptive, loyal early warning system. Bound by mutual trust, the sailors proactively
-        step up, taking ownership to shield their captain from risks so that the ship can weather the storm
-        together. Jannika realized that corporate leadership is no different: when she absorbs the external
-        pressure rather than passing it down, her team will naturally step up to protect her and the
-        organization.</p>
+        <p>She remembered navigating a sudden, violent storm at sea. When huge waves slam the hull, a great skipper doesn't pass panic down the deck. If the captain panics, the crew freezes, and mistakes multiply. Instead, the skipper absorbs the terror, stands steady, and projects absolute calm. By safeguarding psychological safety amidst chaos, the crew transforms into a highly adaptive, loyal team that proactively shields the captain from risks. Jannika realized corporate leadership is no different: when she absorbs external pressure rather than passing it down, 
+        her team will naturally step up to protect her and the organization.</p>
 
         <p><strong>Taking Action</strong></p>
         <p>After she understands that she benefits from not passing down the pressure, she wants to try this
         one little thing from tomorrow and keep learning from there. Right after a stressful meeting, and
         before she replies to anyone or speaks angrily, she wants to visually remind herself that
-        <strong>"the pressure stops with her."</strong> To make this concrete, she will place a small,
-        physical anchor object on her desk (like a sailing knot or a small stone) or change her desktop
-        wallpaper to an ocean horizon. The moment her hand touches her mouse or she feels her blood boil,
-        she will look at that visual cue, take three deep breaths, and let the executive panic stop right
-        there at her desk. This will be a very good step in the direction of creating a sacred space for
-        her employees.</p>
+        <strong>"the pressure stops with her."</strong> She will take three deep breaths, and let the executive panic stop right
+        there at her desk. </p>
+
+        <p><strong>Why this key learning?</strong></p>
+        <p>I noticed that media coverage of companies frequently hyper-focuses on individual leaders, treating them as sole bearers of the organization's weight while completely ignoring their teams. Applying the "doing it for us" principle from social identity theory of leadership can help counter this by building a highly cohesive, collective team identity. Therefore, leaders must execute 
+        this carefully to ensure they do not inadvertently pass excessive systemic pressure down to their team members.
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
           <figure class="border border-ink/10 rounded-xl overflow-hidden bg-white shadow-sm">
