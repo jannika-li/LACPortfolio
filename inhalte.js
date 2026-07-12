@@ -319,7 +319,7 @@ const weeksData = [
         grab a quick ten minutes tomorrow to walk you through the core mechanics so we are fully aligned before
         the committee meets on Friday."</em></p>
 
-        <p>ystrong>Why this key learning?</strong></p>
+        <p><strong>Why this key learning?</strong></p>
         <p>It is easy to downplay my work or deflect responsibility as an intern, especially while I'm still in a steep learning 
         phase and surrounded by more experienced (male) colleagues. However, letting this become a habit risks allowing others to get 
         ahead simply because they are willing to take ownership of their successes. To prevent future resentment, it is crucial to start 
