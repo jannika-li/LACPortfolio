@@ -172,23 +172,11 @@ const weeksData = [
         <p>I noticed that media coverage of companies frequently hyper-focuses on individual leaders, treating them as sole bearers of the organization's weight while completely ignoring their teams. Applying the "doing it for us" principle from social identity theory of leadership can help counter this by building a highly cohesive, collective team identity. Therefore, leaders must execute 
         this carefully to ensure they do not inadvertently pass excessive systemic pressure down to their team members.
 
-        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
+      <div class="grid grid-cols-1 gap-4 my-6">
           <figure class="border border-ink/10 rounded-xl overflow-hidden bg-white shadow-sm">
-            <img src="images/_DSC9150.jpg" alt="Probe" class="reflection-figure-img" onclick="openLightbox('images/_DSC9150.jpg')">
-            <figcaption class="text-xs text-slate px-3 py-2 border-t border-ink/10">Probe</figcaption>
+            <img src="https://i.postimg.cc/wvZBkrT/IMG-4787.jpg" alt="" class="reflection-figure-img" onclick="openLightbox('https://i.postimg.cc/wvZBkrT/IMG-4787.jpg')">
           </figure>
-          <figure class="border border-ink/10 rounded-xl overflow-hidden bg-white shadow-sm">
-            <img src="https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80" alt="Whiteboard-Mitschrift aus dem Seminar" class="reflection-figure-img" onclick="openLightbox('https://images.unsplash.com/photo-1531482615713-2afd69097998?w=800&q=80')">
-            <figcaption class="text-xs text-slate px-3 py-2 border-t border-ink/10">Whiteboard-Mitschrift aus dem Seminar</figcaption>
-          </figure>
-        </div>
-
-        <div class="my-6">
-          <div class="aspect-video w-full border border-ink/10 rounded-xl overflow-hidden bg-ink-deep shadow-sm">
-            <iframe class="w-full h-full" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Kurzvortrag: Hofstede in der Praxis (Seminaraufzeichnung)" frameborder="0" allowfullscreen></iframe>
-          </div>
-          <p class="text-xs text-slate mt-2">Kurzvortrag: Hofstede in der Praxis (Seminaraufzeichnung)</p>
-        </div>`,
+        </div>,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-1-Assignment-Tasks-3256fc3d3bd58006a49fd1583d801e3b?source=copy_link"
     }
