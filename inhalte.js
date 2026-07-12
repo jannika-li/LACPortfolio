@@ -174,7 +174,7 @@ const weeksData = [
 
       <div class="grid grid-cols-1 gap-4 my-6">
           <figure class="border border-ink/10 rounded-xl overflow-hidden bg-white shadow-sm">
-            <img src="https://i.postimg.cc/wvZBkrT/IMG-4787.jpg" alt="" class="reflection-figure-img" onclick="openLightbox('https://i.postimg.cc/wvZBkrT/IMG-4787.jpg')">
+            <img src="https://i.postimg.cc/wvZB8krT/IMG-4787.jpg" alt="" class="reflection-figure-img" onclick="openLightbox('https://i.postimg.cc/wvZB8krT/IMG-4787.jpg')">
           </figure>
         </div>`,
       media: { images: [], video: null, audio: null },
