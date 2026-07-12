@@ -476,9 +476,13 @@ const weeksData = [
         go around the deck: how is everyone doing, and where do we need to pull together to help each other
         out today?"</em></p>
 
+        <p><strong>Why this key learning?</strong></p>
+        <p>Even when I or my teammates were tired, unmotivated, or having a bad day, our imperfect presence was still far more valuable than someone repeatedly failing to show up. Our questionnaire results clearly demonstrated that our teamwork is already on a great path, proving that perfection is not a requirement for success. 
+        Ultimately, this taught me that consistency and showing up for each other matter much more than always being flawless.</p>
+
         <div class="grid grid-cols-1 gap-4 my-6">
           <figure class="border border-ink/10 rounded-xl overflow-hidden bg-white shadow-sm">
-            <img src="https://i.postimg.cc/9Mv23wsY/IMG-0586.jpg" alt="" class="reflection-figure-img" onclick="openLightbox('https://i.postimg.cc/9Mv23wsY/IMG-0586.jpg')">
+            <img src="https://i.postimg.cc/9Mv23wsY/IMG-0586.jpg" alt="Pouring energy into people "that come back around" creates new energy" class="reflection-figure-img" onclick="openLightbox('https://i.postimg.cc/9Mv23wsY/IMG-0586.jpg')">
           </figure>
         </div>`,
       media: { images: [], video: null, audio: null },
