@@ -451,22 +451,14 @@ const weeksData = [
         similar situation she could learn from her sailing experience.</p>
 
         <p><strong>Getting help from her sailing experience</strong></p>
-        <p>She remembered that a crew doesn't become a synchronized unit by only enjoying perfect, sunny days.
-        They become a true team by continuously standing watch together, side by side through endless,
-        uneventful calm and grueling storms alike; it is the sheer amount of time spent sharing the same deck
-        that creates an unspoken, unbreakable rhythm. On a ship, you cannot choose to skip your watch just
-        because you feel unprepared or because the weather is miserable. Half the battle is won simply by
-        showing up at the helm when your shift starts, proving to the rest of the crew that you can be relied
-        upon to share the weight of the journey. Jannika realized that this directly translates to virtual
-        teams, where consistent and continuous shared time serves as the foundational driver of cohesion.
-        Reliable bonding does not solely depend on flawless, high quality interactions or being perfectly
-        prepared for every single discussion. Instead, a massive part of building trust comes from the
-        relentless, shared presence of being there together over time. Respecting the calendar and making the
-        meeting a priority is what truly builds an unbreakable virtual rhythm.</p>
+        <p>She remembered that a crew doesn't become a synchronized unit by only enjoying sunny days. They become a true team by standing watch side by side through endless calm and grueling storms alike; sharing the deck creates an unspoken, unbreakable rhythm. On a ship, you cannot skip your watch because you feel unprepared or the weather is miserable. 
+        Half the battle is won simply by showing up at the helm, proving you can be relied upon to share the weight of the journey.</p>
+
+        <p>Jannika realized this directly translates to virtual teams, where consistent, shared time drives cohesion. Reliable bonding does not depend solely on flawless interactions or being perfectly prepared for every discussion. Instead, trust is built through the relentless presence of being there together over time. 
+        Respecting the calendar and making meetings a priority is what truly builds an unbreakable virtual rhythm.</p>
 
         <p><strong>Taking Action</strong></p>
-        <p>After she understands that she benefits from prioritizing shared presence over perfect preparation,
-        she wants to try this one little thing tomorrow and keep learning from there. Right before a scheduled
+        <p>The next time, right before a scheduled
         virtual team meeting where she feels unprepared or overwhelmed, and before she types a message to
         postpone or cancel it, she wants to visually remind herself that "showing up to the watch is half the
         battle." Tomorrow, instead of canceling the alignment due to a lack of an agenda, she will open the
@@ -533,32 +525,18 @@ const weeksData = [
         <p>Taking responsibility is our biggest superpower, ownership beats inaction.</p>
 
         <p><strong>Jannika's Problem of the Week</strong></p>
-        <p>This week, future Jannika faced a situation where a newly implemented software tool her team spent
-        weeks setting up began causing data sync errors for a critical client. Because she operates in a
-        decentralized, Teal inspired framework, she had previously empowered a senior engineer to choose and
-        configure this tool. Seeing the client's frustrated feedback, Jannika felt a sudden surge of defensive
-        anxiety. Her immediate impulse was to step in, publicly point out that the engineer made the final
-        choice, or demand a flawless, immediate fix to distance herself from the mistake. She caught herself,
-        realizing that punishing an imperfect decision would crush her team's willingness to take ownership in
-        the future. She took a deep breath and tried to remind herself of a similar situation she could learn
-        from her sailing experience.</p>
+        <p>This week, Jannika faced a situation where a newly implemented software tool caused data sync errors for a critical client. Because she operates in a decentralized, Teal-inspired framework, she had empowered a senior engineer to select and configure the tool. Seeing the client's frustrated feedback, Jannika's immediate impulse was to step in, publicly distance herself from the mistake, and point out that the engineer made the final choice. Recognizing that punishing an imperfect decision would crush her team's willingness to take ownership in the future, 
+        she caught herself, took a deep breath, and tried to draw lessons from a similar challenge in her sailing experience.</p>
 
         <p><strong>Getting help from her sailing experience</strong></p>
-        <p>She remembered that no sailor expects to sail from port to destination in a perfectly straight
-        line; the wind shifts, the currents pull, and reaching the destination depends entirely on making
-        countless small course corrections along the way. Taking true responsibility on a ship means being
-        willing to stand at the helm, make those constant adjustments, and keep the vessel moving forward
-        despite the unpredictable elements. Jannika realized this beautifully mirrors the fact that the most
-        valuable skill in any modern organization is the willingness to take responsibility. In a decentralized
-        mindset, responsibility is distributed rather than concentrated at the top. Taking responsibility does
-        not mean never making mistakes; it means staying engaged at the helm when things don't go as planned.
-        In navigation as in leadership, the only true mistake is refusing to act or abandoning the wheel
-        altogether. As long as you take ownership, learn, and adapt, you are successfully moving forward.</p>
+        <p>She remembered that no sailor expects to sail from port to destination in a perfectly straight line; the wind shifts, currents pull, and success depends entirely on making countless small course corrections. On a ship, taking true responsibility means standing at the helm, 
+        making constant adjustments, and keeping the vessel moving forward despite unpredictable elements.</p>
+
+        <p>Jannika realized this beautifully mirrors corporate leadership, where the most valuable skill is the willingness to take responsibility. In a decentralized mindset, responsibility is distributed rather than concentrated at the top. Taking ownership does not mean never making mistakes; it means staying engaged at the helm when things don't go as planned. In navigation as in leadership, the only true mistake is refusing to act or 
+        abandoning the wheel altogether. As long as you adapt and learn, you are successfully moving forward.</p>
 
         <p><strong>Taking Action</strong></p>
-        <p>After she understands that she benefits from embracing course corrections rather than demanding
-        flawless execution, she wants to try this one little thing tomorrow and keep learning from there.
-        Right after a team member's decision leads to an unexpected setback, and before she replies with
+        <p>Next time, right after a team member's decision leads to an unexpected setback, and before she replies with
         blame or takes over the project out of panic, she wants to visually remind herself that "the only
         true mistake is abandoning the wheel." Tomorrow, when addressing the sync error with her engineer, she
         will completely bypass a post mortem of blame and instead anchor the conversation around iterative
@@ -592,32 +570,18 @@ const weeksData = [
         <p>Look for win win solutions, they exist.</p>
 
         <p><strong>Jannika's Problem of the Week</strong></p>
-        <p>This week, future Jannika sat in a stressful budget allocation meeting where her department had to
-        figure out how to handle a sudden fifteen percent increase in client onboarding requests. The
-        traditional management playbook was immediately pushed onto the table: either the employees had to
-        take on mandatory overtime, sacrificing their well being, or the clients had to accept longer wait
-        times, sacrificing satisfaction, or the company had to hire expensive external contractors, sacrificing
-        the owner's profit margins. Jannika felt the heavy, exhausting weight of this zero sum trap. Her
-        immediate impulse was to accept a painful compromise, prepare to tell her team they would just have to
-        grind through the extra workload for the next quarter, and brace herself for the inevitable drop in
-        morale. She caught herself, refusing to accept that someone had to lose. She took a deep breath and
-        tried to remind herself of a similar situation she could learn from her sailing experience.</p>
+        <p>This week, Jannika sat in a stressful budget meeting struggling to handle a sudden 15% increase in client onboarding requests. The traditional management playbook offered only a zero-sum trap: force employee overtime, accept longer client wait times, or hire expensive external contractors. Feeling the exhausting weight of these trade-offs, Jannika's immediate impulse was to accept a painful compromise and brace her team for a grueling quarter. Catching herself and refusing to accept that someone had to lose, she 
+        took a deep breath and tried to draw lessons from a similar challenge in her sailing experience.</p>
 
         <p><strong>Getting help from her sailing experience</strong></p>
-        <p>She remembered that we often carry the limiting belief that a ship can only move forward if someone
-        is bearing an exhausting burden on their shoulders. However, the most successful vessels prove
-        otherwise: when the crew is motivated, the owner succeeds, and the passengers are genuinely satisfied,
-        everyone benefits from the exact same journey, lifted by the same wind. Jannika realized that this
-        mirrors a profound truth about the corporate world: we are deeply conditioned to believe that every
-        solution requires a loser, assuming that if one group benefits, another must inevitably suffer. Yet,
-        decentralized Teal organizations have proven that this zero sum mindset is false. True innovation
-        means challenging the rules we have always accepted. Instead of settling for traditional compromises
-        where everyone gives something up, leadership should focus on ecosystem wide solutions where the crew,
-        the clients, and the owners all gain and move forward together.</p>
+        <p>She remembered the limiting belief that a ship can only move forward if someone bears an exhausting burden. However, the most successful vessels prove otherwise: when the crew is motivated, the owner succeeds, and the 
+        passengers are satisfied, everyone benefits from the exact same journey, lifted by the same wind.</p>
+
+        <p>Jannika realized this mirrors a profound corporate truth: we are conditioned to believe every solution requires a loser. Yet, decentralized Teal organizations prove this zero-sum mindset is false. True innovation means challenging these traditional rules. Instead of settling for compromises where everyone gives something up, leadership should focus on ecosystem-wide 
+        solutions where the crew, the clients, and the owners all win and move forward together.</p>
 
         <p><strong>Taking Action</strong></p>
-        <p>After she understands that she benefits from rejecting zero sum compromises, she wants to try this
-        one little thing tomorrow and keep learning from there. Right before she accepts a lose win scenario
+        <p>Tomorrow, right before she accepts a lose win scenario
         that places a heavy burden on her team's shoulders, she wants to visually remind herself that "the
         same wind lifts the entire ship." Tomorrow, instead of dictating an overtime schedule or accepting a
         drop in service quality, she will gather her team for a creative problem solving session and
@@ -650,36 +614,18 @@ const weeksData = [
         <p>Competitive advantage comes from mastering AI, not fearing it.</p>
 
         <p><strong>Jannika's Problem of the Week</strong></p>
-        <p>This week, future Jannika sat in a department meeting where her team discussed an upcoming, massive
-        operational restructuring plan. The workload was overwhelming, and several team members were visibly
-        stressed about how they would manage the data analysis and reporting on top of their daily tasks. One
-        of her tech savvy employees suggested utilizing a new AI driven tool to automate the heavy lifting, but
-        another senior team member immediately pushed back, expressing fear that adopting these tools would
-        eventually make their own human roles obsolete. Jannika felt the tension in the room. Her immediate
-        impulse was to either shut down the AI suggestion to keep the peace, or force the tool onto the team
-        without addressing their fears. She caught herself, realizing that both paths would stall their
-        progress. She took a deep breath and tried to remind herself of a similar situation she could learn
-        from her sailing experience.</p>
+        <p>This week, Jannika sat in a department meeting discussing an overwhelming operational restructuring plan. While a tech-savvy employee suggested using a new AI tool to automate the heavy workload, a senior team member immediately pushed back, fearing the technology would make human roles obsolete. Feeling the tension, Jannika's immediate impulse was to either dismiss the AI suggestion to keep the peace, or force the tool onto the team without addressing their anxiety. Realizing both paths would stall progress, she caught herself, took a deep breath, 
+        and tried to draw lessons from a similar challenge in her sailing experience.</p>
 
         <p><strong>Getting help from her sailing experience</strong></p>
-        <p>She remembered imagining two captains preparing for the same voyage. One refuses to use modern
-        navigation instruments because they fear becoming dependent on them. The other blindly follows every
-        recommendation the instruments provide without questioning them. Neither captain is likely to reach
-        the destination safely; the best captain understands that technology is neither a replacement for
-        seamanship nor an enemy to be feared. Navigation systems can calculate routes and detect weather
-        patterns far faster than any human, but they cannot replace experience, judgment, or the responsibility
-        of deciding when to trust the instruments and when to rely on instinct. Jannika realized this dynamic
-        perfectly mirrors our current relationship with artificial intelligence: AI itself isn't replacing
-        human expertise; rather, the professionals who master the art of collaborating with AI are the ones who
-        will outpace those who reject it. The technology alone doesn't win the race; the victory belongs to the
-        humans who know how to bridge their unique intuition and creativity with the automated speed of the
-        machine, maintaining total command of the ship while using technology wisely to achieve superior
-        results.</p>
+        <p>She remembered imagining two captains preparing for the same voyage. One refuses to use modern navigation instruments out of fear of dependency, while the other blindly follows every automated recommendation without question. Neither is likely to arrive safely; the best captain understands that technology is neither a replacement for seamanship nor an enemy to be feared. Instruments calculate routes and detect weather faster than any human, 
+        but they cannot replace experience, judgment, or the responsibility of the helm</p
+
+        <p>Jannika realized this perfectly mirrors our relationship with artificial intelligence: AI is not replacing human expertise; rather, professionals who master the art of collaborating with AI will outpace those who reject it. Technology alone does not win the race. Victory belongs to the humans who bridge unique intuition and creativity with automated speed, 
+        maintaining total command of the ship while using technology to achieve superior results</p>
 
         <p><strong>Taking Action</strong></p>
-        <p>After she understands that she benefits from positioning AI as a powerful co pilot that elevates
-        human capability rather than replacing it, she wants to try this one little thing tomorrow and keep
-        learning from there. Right before she kicks off her team alignment tomorrow, and before she introduces
+        <p>For the future, right before she kicks off her team alignment tomorrow, and before she introduces
         any digital tool or automation process, she wants to visually remind herself that "the tool needs the
         sailor." Tomorrow, she will reframe the technology discussion for her team, addressing their fears
         head on by explicitly stating:</p>
@@ -716,33 +662,18 @@ const weeksData = [
         <p>AI generates possibilities. Humans define excellence.</p>
 
         <p><strong>Jannika's Problem of the Week</strong></p>
-        <p>This week, future Jannika was tasked with developing a highly creative marketing and communication
-        concept for a major upcoming company initiative under a tight deadline. Needing inspiration quickly,
-        she opened an AI image and text generator, typed in a brief, vague prompt ("create a modern and
-        innovative campaign for our new project"), and hit generate. Within seconds, the tool flooded her
-        screen with dozens of slick ideas, slogans, and visual mockups. Jannika felt a sudden rush of
-        excitement from the sheer volume of options and was tempted to pick the first visually appealing
-        option to wrap up her day. She caught herself, realizing that while the ideas looked polished, they
-        were completely generic, lacked a deep connection to her company's unique core identity, and ultimately
-        amounted to creative mediocrity. She took a deep breath and tried to remind herself of a similar
-        situation she could learn from her sailing experience.</p>
+        <p>This week, Jannika was tasked with developing a highly creative marketing concept for a major company initiative under a tight deadline. Seeking quick inspiration, she typed a brief, vague prompt into an AI generator, which instantly flooded her screen with dozens of slick slogans and visual mockups. Tempted to pick the first visually appealing option to save time, she caught herself. She realized that while the ideas looked polished, they were completely generic and lacked a deep connection to her company’s unique identity. 
+        Taking a deep breath, she tried to draw lessons from a similar challenge in her sailing experience.</p>
 
         <p><strong>Getting help from her sailing experience</strong></p>
-        <p>She remembered that the wind is one of the most powerful forces at sea, yet it has no intention of
-        its own. It can carry a ship swiftly toward its destination or push it dangerously off course; its
-        strength alone is never enough. What determines the outcome is the captain's ability to read the
-        conditions, adjust the sails, and channel that raw force with precision. The wind provides momentum,
-        but it never provides direction. Jannika realized that this perfectly mirrors her relationship with
-        artificial intelligence in creative workflows: AI is an incredibly powerful tool for accelerating
-        creativity, but it is not a substitute for human imagination, critical thinking, or creative direction.
-        Vague prompts produce generic results, while precise goals and continuous refinement lead to valuable
-        outcomes. Achieving excellence with AI ultimately requires leadership rather than just technical
-        skills; it delivers its greatest value when guided by someone who critically evaluates every result and
-        refuses to settle for mediocrity.</p>
+        <p>She remembered that the wind is one of the most powerful forces at sea, yet it has no intention of its own. It provides momentum, but never direction; a captain must read the conditions, adjust the sails, and channel that raw force with precision. What determines 
+        the outcome is not the strength of the wind, but the skipper’s ability to guide it</p>
+
+        <p>Jannika realized this perfectly mirrors her relationship with artificial intelligence in creative workflows. AI is an incredibly powerful tool for accelerating creativity, but it is not a substitute for human imagination or critical direction. Vague prompts produce generic results, while precise goals and continuous refinement lead to valuable outcomes. Achieving excellence with AI ultimately requires leadership rather than just technical skills; it delivers its 
+        greatest value when guided by someone who critically evaluates every result and refuses to settle for mediocrity.</p>
 
         <p><strong>Taking Action</strong></p>
-        <p>After she understands that she benefits from treating AI as creative momentum rather than a creative
-        director, she wants to try this one little thing tomorrow and keep learning from there. Right after an
+        <p>Next time, right after an
         AI tool generates a batch of creative concepts, and before she accepts the output or passes it along to
         her team, she wants to visually remind herself that "the wind gives speed, but I give the vector."
         Tomorrow, when brainstorming with AI, she will refuse to use single sentence prompts. Instead, she will
@@ -751,7 +682,7 @@ const weeksData = [
         <p><em>"The ideas you generated are too generic and focus too much on cliché corporate buzzwords.
         Let's trim the sails. Regenerate the concept, but this time apply our specific company value of [insert
         value] and strip away any corporate jargon. Give me three options that focus heavily on a minimalist
-        aesthetic."</em></p>
+        aesthetic following this specific example [insert example]."</em></p>
 
         <p><strong>Why this key learning?</strong></p>
         <p>Through daily experimentation and critical evaluation of AI, I noticed that it mostly regurgitates existing online data rather than sparking truly innovative ideas that genuinely excite me. I realized that working with AI only becomes evolutionary when it is used as an iterative partner, requiring me to push through multiple cognitive loops while firmly holding onto my own vision and control. Ultimately, true value comes from refusing to settle 
