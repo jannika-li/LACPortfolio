@@ -567,6 +567,9 @@ const weeksData = [
         straight line. You made a calculated decision, and now we just need to make a course correction. What
         is our immediate next adjustment to stabilize the client, and what did we learn from this data glitch
         that we can apply moving forward?"</em></p>
+        <p><strong>Why this key learning?</strong></p>
+        <p>Reading Laloux's work made me realize how powerful it is when decision-making shifts from a traditional leader to the specific person handling the task. I now see this reflected in my own boss, who entrusts students with high-level work usually reserved for qualified lawyers or auditors. He does not demand immediate perfection; 
+        instead, he values our willingness to take ownership, learn the material, and ultimately drive the collective team forward.</p>
 
         <p><strong>2nd Key Learning</strong></p>
         <p>When trying risky things, the whole organization doesn't have to go all in. Small groups can test
@@ -577,6 +580,13 @@ const weeksData = [
             <iframe class="w-full h-full pointer-events-none" src="https://www.youtube.com/embed/0CDK4wScCrM" title="Video zum 2. Key Learning" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
+
+        <p><strong>Why this key learning?</strong></p>
+        <p>I am currently dealing with our company switching to a cheaper, flawed system that lacks critical functions, causing widespread frustration because no one understands it. Had management used a motivated test group first, we could have identified these massive gaps early and built a network of internal experts to 
+        guide everyone. Instead, we are now stuck with useless, generic training sessions that everyone absolutely hates.</p>
+
+        <p>I find it remarkable how effortlessly Teal organizations enable individual teams to adapt processes to their specific needs without losing connection to the larger collective. Instead of relying on top-down mandates, each group has the autonomy to experiment, tailor their workflows, and instantly pivot when something isn't working. Crucially, this setup creates an open ecosystem where lessons learned by one team are
+        readily accessible, allowing others to quickly adopt and adapt those insights for their own success.</p>
 
         <p><strong>3rd Key Learning</strong></p>
         <p>Look for win win solutions, they exist.</p>
@@ -616,7 +626,11 @@ const weeksData = [
         response is to ask you to work longer hours or make the clients wait. I refuse to accept either. Let's
         look at the actual bottlenecks in our current onboarding workflow. How can we automate or eliminate the
         repetitive administrative parts of this process so that clients get onboarded faster, your daily
-        workload actually becomes lighter, and the company still hits its growth targets?"</em></p>`,
+        workload actually becomes lighter, and the company still hits its growth targets?"</em></p>
+        
+        <p><strong>Why this key learning?</strong></p>
+        <p>During our weekly session my team's intense skepticism towards great ideas frm Laloux forced me to constantly defend real-world, functioning examples of these new models against their endless doubts. I believe this resistance stems from a deeply ingrained assumption that work must inherently involve suffering and that positive change is simply too idealistic to 
+        be realistic. However, I refuse to accept this cynical mindset and give up on the potential for a genuinely better way of working.</p>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-9-Assignment-Tasks-3616fc3d3bd580359ba6f2eb296f784b?source=copy_link"
     }
