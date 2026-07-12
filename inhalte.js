@@ -123,7 +123,7 @@ const weeksData = [
         <p>When looking back at the journey of the past few weeks and reviewing the process of compiling this portfolio, one fundamental 
         realization stands out above all else: growth is rarely linear, but it always moves us forward. It is incredibly easy to feel like 
         we are just spinning in circles when we are constantly confronted with recurring challenges, daily routines, or the same predictable
-        team dynamics. However, this entire experience has taught me that we aren't actually moving in circles—we are climbing a spiral staircase.
+        team dynamics. However, this entire experience has taught me that we aren't actually moving in circles, we are climbing a spiral staircase.
         Every single time we loop back around to a seemingly familiar challenge, we do so from a higher perspective, equipped with greater self-awareness,
         deeper insights, and much sharper tools. This portfolio has served as a direct mirror for my personal and professional development, forcing me to pause, 
         observe, and consciously digest the mechanics of leadership, human behavior, and my own internal drivers. The result is a profound shift in how I 
@@ -147,7 +147,7 @@ const weeksData = [
         <p>This exact momentum applies to team dynamics as a whole, which ultimately function as a continuous system of mutual energy exchange. Throughout this process,
         it became glaringly obvious how crucial consistency is for building and maintaining trust within a group. When team members frequently miss sessions or drop out
         of communication, they inevitably drift out of the core team identity. The harsh reality of group mechanics is that the underlying reason for someone's absence, 
-        no matter how perfectly valid or completely trivial it might be—does absolutely nothing to change its systemic impact. The collective energy drops, the bond weakens,
+        no matter how perfectly valid or completely trivial it might be, does absolutely nothing to change its systemic impact. The collective energy drops, the bond weakens,
         and the entire dynamic suffers. Conversely, I learned how remarkably irrelevant initial chemistry or personal alignment actually is at the start of a project. You 
         don't need a perfectly cast, pre-selected group of people to achieve greatness. Any collection of individuals can be forged into a high-performing unit under two 
         simple conditions: everyone must genuinely want to be there, and everyone must deeply understand why the collective goal matters. 
