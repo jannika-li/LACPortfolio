@@ -195,39 +195,26 @@ const weeksData = [
         <p>Humans aren't machines, they require active engagement rather than just repetitive tasks.</p>
 
         <p><strong>Jannika's Problem of the Week</strong></p>
-        <p>This week, future Jannika noticed that her team was caught in a painful, quiet slump. The major Q2
-        project had just wrapped up, and the team was assigned to a tedious, repetitive data cleansing and
-        documentation task that would last for weeks. Walking through the office or looking at her team's
-        Slack channels, she noticed the atmosphere was dead silent. Energy was evaporating, and her usually
-        sharp employees were staring blankly at their screens, visibly draining their momentum. Frustrated by
-        the sudden drop in productivity, Jannika's first instinct was to push harder, send rigid hourly status
-        updates, or demand a faster pace. She quickly caught herself, realizing this would only breed
-        resentment. She sat back and tried to remind herself of a similar situation she could learn from her
-        sailing experience.</p>
+        <p>This week, Jannika noticed her team was caught in a painful slump. With a major project completed, they were assigned to a tedious, weeks-long data cleansing task. The office and Slack channels were dead silent; energy was evaporating, and momentum was draining. Frustrated by the drop in productivity, Jannika's first instinct was to push harder, demand rigid status updates, or force a faster pace. Recognizing this would only breed resentment, she caught 
+        herself, sat back, and tried to draw lessons from a similar challenge in her sailing experience.</p>
 
         <p><strong>Getting help from her sailing experience</strong></p>
-        <p>She remembered being out in the open ocean, where the greatest threat to a voyage isn't always a
-        roaring storm. Often it is the dreaded "doldrums," the eerie, complete absence of wind that leaves a
-        vessel stranded and helplessly drifting. A ship cannot move on a fixed track like an automated engine;
-        it requires an external force to propel it forward. When the horizon remains dead calm and the sails
-        hang lifelessly, frustration settles in, and the crew's energy begins to evaporate. In these moments
-        of absolute stagnation, a skilled skipper knows that survival depends entirely on crew morale. By
-        deliberately injecting energy, creativity, and a spirited, playful attitude into the daily routine on
-        deck, the leader shifts the atmosphere. This spark of internal morale acts like catching a sudden,
-        unexpected breeze, instantly snapping the sails back to life. Jannika realized this directly transfers
-        to the workplace: being underutilized or underchallenged is just as dangerous as being overworked.
-        When the external "wind" of systemic purpose is missing from a task, she must step in to protect the
-        team's well being by intentionally introducing elements of fun and playfulness to revitalize
-        engagement.</p>
+        <p>She remembered being out on the open ocean, where the greatest threat isn't always a storm, but the "doldrums", the complete absence of wind that leaves a vessel stranded. When the horizon remains dead calm and sails hang lifelessly, frustration settles in and the crew's energy evaporates. In these moments of stagnation, a skilled skipper knows survival depends entirely on crew morale. By deliberately injecting energy, creativity, 
+        and playfulness into the routine, the leader shifts the atmosphere, acting as the spark that snaps the sails back to life.</p>
+        <p>Jannika realized this directly transfers to the workplace: being underchallenged is just as dangerous as being overworked. When the external wind of a purposeful task is missing, she must step in to protect the 
+        team's well-being by intentionally introducing elements of fun to revitalize engagement</p>
 
         <p><strong>Taking Action</strong></p>
-        <p>After she understands that she benefits from injecting internal morale when the external wind dies
-        down, she wants to try this one little thing from tomorrow and keep learning from there. Before she
+        <p> Before she
         kicks off the next repetitive task or status meeting, she wants to visually remind herself that "when
         the wind stops, the play begins." For tomorrow's data cleansing work, she will announce a fifteen
         minute "Sprint Challenge" where the person who finds the most duplicate entries wins a small, funny
         prize (like a coffee or a cheesy digital trophy). This will be a very good step in the direction of
         creating a sacred space for her employees.</p>
+
+        <p><strong>Why this key learning?</strong></p>
+        <p>While I don't see myself as the life of the party, reviewing this week's content made me realize there are many low-pressure ways, like playing office music, to lighten the mood without being an extroverted clown. I tend to take things too seriously because I believe it drives results, but this rigid approach can backfire depending on the context. Moving forward, 
+        I want to constantly gauge the current atmosphere, as reading the room is essential for choosing the right behavior.</p>
 
         <div class="grid grid-cols-1 gap-4 my-6">
           <figure class="border border-ink/10 rounded-xl overflow-hidden bg-white shadow-sm">
