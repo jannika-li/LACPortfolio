@@ -176,7 +176,7 @@ const weeksData = [
           <figure class="border border-ink/10 rounded-xl overflow-hidden bg-white shadow-sm">
             <img src="https://i.postimg.cc/wvZBkrT/IMG-4787.jpg" alt="" class="reflection-figure-img" onclick="openLightbox('https://i.postimg.cc/wvZBkrT/IMG-4787.jpg')">
           </figure>
-        </div>,
+        </div>`,
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-1-Assignment-Tasks-3256fc3d3bd58006a49fd1583d801e3b?source=copy_link"
     }
