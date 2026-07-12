@@ -120,7 +120,52 @@ const weeksData = [
     detail: {
       // ✏️ HIER ANPASSEN: Dein zusammenfassender Reflexionstext.
       reflection: `
-        <p>✏️ HIER ANPASSEN: Write your summarizing reflection of your learning journey here.</p>`,
+        <p>When looking back at the journey of the past few weeks and reviewing the process of compiling this portfolio, one fundamental 
+        realization stands out above all else: growth is rarely linear, but it always moves us forward. It is incredibly easy to feel like 
+        we are just spinning in circles when we are constantly confronted with recurring challenges, daily routines, or the same predictable
+        team dynamics. However, this entire experience has taught me that we aren't actually moving in circles—we are climbing a spiral staircase.
+        Every single time we loop back around to a seemingly familiar challenge, we do so from a higher perspective, equipped with greater self-awareness,
+        deeper insights, and much sharper tools. This portfolio has served as a direct mirror for my personal and professional development, forcing me to pause, 
+        observe, and consciously digest the mechanics of leadership, human behavior, and my own internal drivers. The result is a profound shift in how I 
+        view my ambitions, my role within a team, and the ultimate impact I want to have on the world around me.</p>
+        <p>This transformation initially triggered in the smallest of moments, specifically during my daily commute to work. By consciously replacing dead 
+        time with targeted reading about corporate structures, visionary leaders, and high-performing teams, my daily mindset shifted completely. In environments
+        where the immediate surroundings or the people around you cannot keep pace with your personal drive or long-term ambitions, intentional reading becomes 
+        your psychological fuel. It acts as a constant reminder of what is truly possible and spurs you forward. At the same time, this continuous influx of knowledge 
+        allowed me to actively decode real-world leadership in real-time. I found myself analyzing why managers and executives act the way they do, uncovering the 
+        hidden pressures, strategic motivations, and structural frameworks behind their decisions. This has completely transformed how I interact with leadership; 
+        I no longer just see the outward action, but I deeply 
+        understand the underlying mechanism behind it</p>
+        <p>One of the most liberating lessons derived from this learning journey challenges everything we are conventionally told about passion and effort. We are
+        often led to believe that we must love something first in order to invest ourselves fully in it. My experience with this portfolio proved the exact opposite:
+        we don't engage in things because we love them; we love them because we engage in them. Topics and tasks that initially felt dry or tedious suddenly became
+        fascinating the moment I threw myself into the preparation. I noticed a direct, undeniable correlation between my level of weekly preparation and the overall
+        energy of our group sessions. Whenever I invested time beforehand to thoroughly structure the material, our meetings with my group partners completely transformed.
+        The discussions became highly productive, the breakthroughs became tangible, and a genuine, intrinsic motivation naturally emerged. The enthusiasm wasn't a
+        prerequisite to get started, it
+        was the direct byproduct of commitment and hard work.</p>
+        <p>This exact momentum applies to team dynamics as a whole, which ultimately function as a continuous system of mutual energy exchange. Throughout this process,
+        it became glaringly obvious how crucial consistency is for building and maintaining trust within a group. When team members frequently miss sessions or drop out
+        of communication, they inevitably drift out of the core team identity. The harsh reality of group mechanics is that the underlying reason for someone's absence, 
+        no matter how perfectly valid or completely trivial it might be—does absolutely nothing to change its systemic impact. The collective energy drops, the bond weakens,
+        and the entire dynamic suffers. Conversely, I learned how remarkably irrelevant initial chemistry or personal alignment actually is at the start of a project. You 
+        don't need a perfectly cast, pre-selected group of people to achieve greatness. Any collection of individuals can be forged into a high-performing unit under two 
+        simple conditions: everyone must genuinely want to be there, and everyone must deeply understand why the collective goal matters. 
+        When intent and focus align, personal differences naturally melt into the background.</p>
+        <p>Despite these breakthroughs, the path was far from frictionless. Around Week 9, I hit a massive mental wall and found myself seriously questioning whether I 
+        even wanted to become a Team Lead anymore. The sudden hesitation came from a stark realization of what the role actually entails and the staggering amount of
+        time and energy it consumes. I realized that leadership involves very little actual execution or hands-on content creation. Instead, it is almost entirely 
+        motivational work, focusing heavily on keeping the team psychologically aligned, organized, and moving forward. The sheer weight of this emotional labor 
+        and constant coordination temporarily pushed me back. Yet, navigating directly through that patch of intense doubt brought me to my ultimate conclusion. Yes, 
+        the investment of time and energy is massive, but I now fully comprehend why it is worth it. My deepest core driving force is to move the world, to contribute 
+        tangibly, and to ensure that my community thrives. Leadership, 
+        I realized, is simply the most powerful vehicle available to scale that positive impact.</p>
+        <p>In the end, this reflection has shown me that I thrive on high stakes and genuinely love working hard. I need a fast-paced, high-output environment 
+        to feel fulfilled, and the process of brainstorming strategies, building concepts, and bringing abstract ideas to life gives me an immense amount of energy. 
+        I am incredibly grateful that I was able to put these insights into practice in real-time throughout the duration of this portfolio, rather than just treating 
+        it as a theoretical exercise. I can barely wait to wake up every single day, push my boundaries, and actively exert a positive, lasting influence on the world 
+        around me. The staircase continues upward, 
+        and I am ready for the next level.</p>`,
       // ✏️ HIER ANPASSEN: Link zu deinem Vision-Board-Bild eintragen (z. B. von postimg.cc).
       // Beispiel: visionBoardImage: "https://i.postimg.cc/xxxxxxxx/mein-bild.jpg"
       // Leer lassen (""), solange du noch kein Bild hast — es erscheint dann ein Platzhalter.
