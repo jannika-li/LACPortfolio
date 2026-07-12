@@ -689,6 +689,10 @@ const weeksData = [
         workflow tomorrow and pick just one repetitive task where we can use AI to do the heavy lifting, so you
         have more time to focus on the strategic work that only you can do."</em></p>
 
+         <p><strong>Why this key learning?</strong></p>
+        <p>At the start of my internship, I was terrified that AI would completely eliminate our jobs and leave us struggling to stay afloat. However, reading insightful articles and engaging in deep discussions with various people helped me overcome this fear. I now realize that instead of panicking about displacement, 
+        the real key is to stay adaptable, keep learning, and actively grow alongside these evolving technologies.</p>
+
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
           <figure class="border border-ink/10 rounded-xl overflow-hidden bg-white shadow-sm">
             <img src="https://i.postimg.cc/MZYrRQpG/IMG-4796.jpg" alt="Option A" class="reflection-figure-img" onclick="openLightbox('https://i.postimg.cc/MZYrRQpG/IMG-4796.jpg')">
@@ -748,6 +752,10 @@ const weeksData = [
         Let's trim the sails. Regenerate the concept, but this time apply our specific company value of [insert
         value] and strip away any corporate jargon. Give me three options that focus heavily on a minimalist
         aesthetic."</em></p>
+
+        <p><strong>Why this key learning?</strong></p>
+        <p>Through daily experimentation and critical evaluation of AI, I noticed that it mostly regurgitates existing online data rather than sparking truly innovative ideas that genuinely excite me. I realized that working with AI only becomes evolutionary when it is used as an iterative partner, requiring me to push through multiple cognitive loops while firmly holding onto my own vision and control. Ultimately, true value comes from refusing to settle 
+        for the very first output and instead actively steering the technology to refine and elevate my own thinking.</p>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
           <figure class="border border-ink/10 rounded-xl overflow-hidden bg-white shadow-sm">
