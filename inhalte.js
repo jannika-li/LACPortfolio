@@ -22,7 +22,7 @@
    Das ist die EINZIGE Stelle, an der du das festlegen musst — du musst NICHT
    mehr bei jeder einzelnen Woche weiter unten etwas ändern.
    ──────────────────────────────────────────────────────────────────────── */
-const BENOTUNGSRELEVANTE_WOCHEN = [1, 2, 4, 7, 9, 10];
+const BENOTUNGSRELEVANTE_WOCHEN = [0, 1, 2, 4, 7, 9, 10];
 
 
 /* ────────────────────────────────────────────────────────────────────────
