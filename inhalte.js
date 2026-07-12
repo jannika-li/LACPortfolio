@@ -169,7 +169,7 @@ const weeksData = [
       // ✏️ HIER ANPASSEN: Link zu deinem Vision-Board-Bild eintragen (z. B. von postimg.cc).
       // Beispiel: visionBoardImage: "https://i.postimg.cc/xxxxxxxx/mein-bild.jpg"
       // Leer lassen (""), solange du noch kein Bild hast — es erscheint dann ein Platzhalter.
-      visionBoardImage: "",
+      visionBoardImage: "https://i.postimg.cc/sfHT1NWq/Dein-Abschnittstext.png",
       media: { images: [], video: null, audio: null },
       notionUrl: "https://app.notion.com/p/Week-0-Objectives-3256fc3d3bd580aa9b0fdd6ace9693e5?source=copy_link"
     }
