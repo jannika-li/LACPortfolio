@@ -284,76 +284,45 @@ const weeksData = [
         <p>In leadership, actions often build trust more powerfully than words.</p>
 
         <p><strong>Jannika's Problem of the Week</strong></p>
-        <p>This week, future Jannika found herself in a high stakes cross departmental alignment meeting.
-        Right before she was about to present her team's quarterly strategy, a skeptical male peer made a
-        highly unprofessional, biased comment in front of the room, saying something along the lines of:
-        "And now comes the loser woman with her underperforming team." Jannika felt a sudden surge of anger
-        and frustration at the systemic bias behind the remark. Her immediate impulse was to get emotional,
-        defend her honor, and enter into a tense verbal debate to prove how offensive he was right there in
-        front of the stakeholders. She caught herself, recognizing that reacting with visible emotion would
-        play right into his hands. She took a deep breath and tried to remind herself of a similar situation
-        she could learn from her sailing experience.</p>
+        <p>This week, Jannika faced a cross-departmental alignment meeting where a skeptical peer made a biased remark right before her presentation: "And now comes the loser woman with her underperforming team." Feeling a surge of anger, her impulse was to launch into a tense verbal debate. Recognizing that reacting with visible emotion would play into his hands, she caught herself, 
+        took a deep breath, and tried to draw lessons from a similar challenge in her sailing experience.</p>
 
         <p><strong>Getting help from her sailing experience</strong></p>
-        <p>She remembered that when the wind shifts unexpectedly on the open ocean, an experienced captain
-        doesn't waste precious time arguing with the weather or shouting at the storm. You cannot negotiate
-        with a gale force headwind; you master it by adjusting your sails and keeping a firm hand on the helm.
-        In turbulent seas, a captain's true authority isn't proven by shouting over the roar of the waves, but
-        by the steady, unyielding course of the vessel itself. As the ship cuts cleanly through punishing
-        countercurrents, the flawless execution of every maneuver speaks for itself, silently proving the
-        skipper's absolute capability to the crew. Jannika realized that this directly transfers to modern
-        leadership, where female leaders frequently face shifting winds of systemic bias. Trying to verbally
-        debate or address every single disparity through dialogue is rarely the most effective path. Instead
-        of fighting the wind, she builds lasting trust through strategic visibility and undeniable competence.
-        By letting tangible results, decisive actions, and her professional network "speak a thousand words,"
-        she effortlessly demonstrates captaincy and lets the undeniable success of her journey permanently
-        silence the skeptics.</p>
+        <p>She remembered that when the wind shifts unexpectedly at sea, an experienced captain doesn't waste time arguing with the storm. You cannot negotiate with a headwind; you master it by adjusting your sails and keeping a firm hand on the helm. A captain’s true authority is proven by the steady, unyielding course of the vessel. As the ship cuts cleanly through
+        countercurrents, the flawless execution of every maneuver silently proves the skipper's capability.</p>
+
+        <p>Jannika realized this directly applies to corporate leadership, where female leaders frequently face shifting winds of systemic bias. Rather than debating every disparity, she builds lasting trust through strategic visibility and undeniable competence. By letting tangible results and decisive actions speak for themselves, she effortlessly demonstrates 
+        captaincy and lets the success of her journey permanently silence the skeptics</p>
 
         <p><strong>Taking Action</strong></p>
-        <p>After she understands that she benefits from letting her execution speak louder than any verbal
-        argument, she wants to try this one little thing tomorrow and keep learning from there. Right after a
+        <p>Right after the next 
         meeting starts with a hostile comment, she will completely ignore the remark, bypass the emotional
         bait entirely, and seamlessly deliver a flawless presentation. Later that week, instead of holding a
         grudge or confronting him angrily, she will extend an invite to him for a high level industry
         networking event where she is well connected. By pulling him onto her home turf, she lets him witness
         her professional standing and undeniable competence firsthand, naturally shifting his skepticism into
         genuine respect. Tomorrow morning, she will open her planner and identify the next local networking
-        meetup or corporate event, preparing to use her professional visibility as her ultimate helm. This
-        will be a very good step in the direction of creating a sacred space for her employees, showing them
-        how a true captain navigates professional hostility with unmatched composure and strategic maturity.</p>
+        meetup or corporate event, preparing to use her professional visibility as her ultimate helm. </p>
+
+        <p><strong>Why this key learning?</strong></p>
+        <p>As an intern, I often feel small and misunderstood because my colleagues only see a fraction of who I am, while I notice male coworkers gaining respect simply through casual bonding over topics like sports. I want to embrace showing my full strengths confidently so I can be utilized effectively and protect myself from being unfairly dismissed or underestimated. Ultimately, 
+        I need to realize that my work ethic deserves recognition, even if I do not engage in the same social dynamics as others.</p>
 
         <p><strong>2nd Key Learning</strong></p>
         <p>Leadership credibility is built through visible competence.</p>
 
         <p><strong>Jannika's Problem of the Week</strong></p>
-        <p>This week, future Jannika sat at her desk reviewing an innovative, highly strategic efficiency
-        framework she had spent months quietly perfecting for her department. An upcoming, high visibility
-        corporate transformation committee meeting was scheduled for Friday, where senior leaders would select
-        new cross functional project leads. Despite having the most optimized and data backed framework ready
-        to go, Jannika's immediate impulse was to remain quiet, do nothing, and hope that executive leadership
-        would simply notice her past hard work and automatically invite her to take the helm. She caught
-        herself, recognizing that relying on silent competence would likely result in the opportunity being
-        handed to a louder, more visible, but less qualified peer. She took a deep breath and tried to remind
-        herself of a similar situation she could learn from her sailing experience.</p>
+        <p>This week, Jannika reviewed an innovative efficiency framework she had spent months perfecting for her department. With an upcoming corporate transformation committee meeting scheduled for Friday to select new project leads, she had the most optimized, data-backed strategy ready. Despite this, her immediate impulse was to remain quiet, hoping leadership would automatically notice her hard work. Recognizing that relying on silent competence would likely result in the opportunity being handed to a louder, less qualified peer, she caught herself, 
+        took a deep breath, and drew lessons from a similar challenge in her sailing experience.</p>
 
         <p><strong>Getting help from her sailing experience</strong></p>
-        <p>She imagined two captains standing on the docks of a bustling harbor, each looking to recruit a
-        crew for a grueling voyage across open waters. No seasoned sailor would ever entrust their life to a
-        captain whose name they have never heard, or whose ability to navigate a treacherous storm has never
-        been witnessed. Because the stakes on the ocean are life and death, sailors rely heavily on a
-        captain's reputation, past observations, and visible proof of seamanship. A captain whose skills
-        remain entirely hidden in the shadows is automatically assumed to be inexperienced, or worse,
-        reckless. Exceptional seamanship alone is not enough to command a ship; great captains understand that
-        they must make their competence visible to the maritime community long before the vessel ever leaves
-        the safety of the harbor. Jannika realized this directly transfers to corporate leadership: while
-        women often lean toward humility, expecting their hard work to speak for itself, true captaincy
-        requires stepping out of the shadows. Relying on silent competence is a risk; she must ensure her
-        strategic capabilities and results are clearly visible and ready to be demonstrated at any given
-        moment.</p>
+        <p>She imagined two captains looking to recruit a crew for a grueling voyage. No seasoned sailor would entrust their life to a captain whose name they had never heard or whose navigation skills remained hidden in the shadows; without visible proof of seamanship, anonymity is easily mistaken for inexperience. Exceptional skill alone is not enough to command a ship, 
+        great captains make their competence visible to the community long before leaving the harbor.</p>
+        <p>Jannika realized this directly transfers to corporate leadership. While women often lean toward humility, expecting hard work to speak for itself, relying on silent competence is a risk. True captaincy 
+        requires stepping out of the shadows and ensuring strategic capabilities and results are clearly visible.</p>
 
         <p><strong>Taking Action</strong></p>
-        <p>After she understands that she benefits from making her competence visible rather than waiting in
-        the shadows, she wants to try this one little thing tomorrow and keep learning from there. Right
+        <p>Right
         before she opens her email tomorrow morning, and before she falls back into the habit of quietly
         working behind the scenes, she will identify one senior stakeholder who is part of that transformation
         committee. Tomorrow, she will send them a short, proactive message, scheduling a brief, casual ten
@@ -362,6 +331,12 @@ const weeksData = [
         efficient framework designed specifically to tackle the upcoming operational bottlenecks. I'd love to
         grab a quick ten minutes tomorrow to walk you through the core mechanics so we are fully aligned before
         the committee meets on Friday."</em></p>
+
+        <p>ystrong>Why this key learning?</strong></p>
+        <p>It is easy to downplay my work or deflect responsibility as an intern, especially while I'm still in a steep learning 
+        phase and surrounded by more experienced (male) colleagues. However, letting this become a habit risks allowing others to get 
+        ahead simply because they are willing to take ownership of their successes. To prevent future resentment, it is crucial to start 
+        owning my contributions now so I don't miss out on recognition and promotions down the road.</p>
 
         <div class="grid grid-cols-1 gap-4 my-6">
           <figure class="border border-ink/10 rounded-xl overflow-hidden bg-white shadow-sm">
